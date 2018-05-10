@@ -1,4 +1,6 @@
-# Plugin documentation
+# antd-cms-component-docs
+
+Documentation for antd-cms-component 
 
 ## component map
 
