@@ -1,4 +1,5 @@
-import { configure } from '@storybook/react';
+// @flow
+import { addDecorator, configure } from '@storybook/react';
 import '@storybook/addon-console';
 
 function loadStories() {

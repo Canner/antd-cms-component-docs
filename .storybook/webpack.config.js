@@ -1,6 +1,13 @@
 const path = require("path");
 
 module.exports = {
+  resolve: {
+    alias: {
+      "components": path.resolve(__dirname, '../src/components'),
+      "stories": path.resolve(__dirname, '../src/stories'),
+      "styled-components": path.resolve(__dirname, '../node_modules/styled-components')
+    }
+  },
   module: {
     rules: [
       {
