@@ -1,19 +1,22 @@
-import React from 'react';
+import * as React from 'react';
+import { configure, addDecorator } from '@storybook/react';
 
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
+const req = require.context('../components', true, /\.stories\.js$/)
 
-import { Button, Welcome } from '@storybook/react/demo';
+const CenterDecorator = (storyFn) => (
+  <div style={{
+    padding: "20px",
+    backgroundColor: "#fafafa",
+    minHeight: "100vh"
+  }}>
+    { storyFn() }
+  </div>
+);
 
-storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
+addDecorator(CenterDecorator);
 
-storiesOf('Button', module)
-  .add('with text', () => <Button onClick={action('clicked')}>Hello Button</Button>)
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
-      <span role="img" aria-label="so cool">
-        😀 😎 👍 💯
-      </span>
-    </Button>
-  ));
+function loadStories() {
+  req.keys().forEach((filename) => req(filename))
+}
+
+configure(loadStories, module);
