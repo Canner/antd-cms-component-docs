@@ -1,7 +1,7 @@
 ## Image
 
 ```jsx
-<string
+<file
   keyName="photo"
   ui="image"/>
 ```

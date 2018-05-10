@@ -12,7 +12,7 @@ import ExamplePrimitiveValueWrapper from '../../ExamplePrimitiveValueHoc';
 
 const DatePicker = ExamplePrimitiveValueWrapper("2018-03-24T16:00:00.201Z")(IntlComponent(Date))
 
-storiesOf('String', module)
+storiesOf('Date', module)
   .add('Date', customPreview(README, () => (
     <DatePicker
       refId={new RefId("date")}

@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@canner/antd-boolean-card": "^0.1.0",
+    "@canner/antd-boolean-switch": "^0.1.0",
     "@canner/antd-locales": "^0.1.0",
+    "@canner/antd-number-input": "^0.1.0",
+    "@canner/antd-number-rate": "^0.1.0",
+    "@canner/antd-number-slider": "^0.1.0",
+    "@canner/antd-object-map": "^0.1.0",
     "@canner/antd-string-card": "^0.1.0",
     "@canner/antd-string-date_time_picker": "^0.1.0",
     "@canner/antd-string-editor": "^0.1.0",

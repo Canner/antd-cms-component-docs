@@ -12,7 +12,7 @@ import ExamplePrimitiveValueWrapper from '../../ExamplePrimitiveValueHoc';
 
 const ImageWrapper = ExamplePrimitiveValueWrapper("https://cdn.canner.io/images/logo/logo-word.png")(IntlComponent(Image))
 
-storiesOf('String', module)
+storiesOf('File', module)
   .add('Image', customPreview(README, () => (
     <ImageWrapper
       refId={new RefId("image")}
