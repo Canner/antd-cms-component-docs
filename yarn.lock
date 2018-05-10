@@ -114,6 +114,10 @@
     antd-geosuggest "^0.2.1"
     react-google-maps "^9.4.5"
 
+"@canner/antd-object-options@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@canner/antd-object-options/-/antd-object-options-0.1.0.tgz#8987e5b9417c390eb5d6aee75d80a80f8fbccde4"
+
 "@canner/antd-share-card@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@canner/antd-share-card/-/antd-share-card-0.1.0.tgz#92868148a013f7a7cf1efab5c93ddd81fbf3272a"
@@ -206,6 +210,13 @@
     react-intl "^2.4.0"
     react-loading-image "^0.2.0"
     styled-components "^3.2.0"
+
+"@canner/react-cms-helpers@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@canner/react-cms-helpers/-/react-cms-helpers-0.1.6.tgz#987efc028ef1b4e42f93ed501b347b605ed61cd8"
+  dependencies:
+    immutable "^4.0.0-rc.9"
+    lodash "^4.17.5"
 
 "@canner/react-quill@^0.4.6":
   version "0.4.6"
@@ -4166,9 +4177,13 @@ image-size@~0.5.0:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
 
-immutable@^3.7.4, immutable@^3.8.1:
+immutable@^3.7.4, immutable@^3.8.1, immutable@^3.8.2:
   version "3.8.2"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
+
+immutable@^4.0.0-rc.9:
+  version "4.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.0.0-rc.9.tgz#1e6e0094e649013ec3742d2b5aeeca5eeda4f0bf"
 
 immutable@~3.7.4:
   version "3.7.6"
