@@ -1,14 +1,13 @@
-## Array tab top
+## Usage
 
 ```jsx
-<array
-  keyName="tab"
-  value={immutable.fromJS([{
-    "title": "title 1",
-    "content": "content 1"
-  }, {
-    "title": "title 2",
-    "content": "content 2"
-  }])}
-  ui="tabTop"/>
+<array keyName="tab" ui="tabTop"/>
+```
+
+## Value type
+
+```js
+Array<{
+  [string]: any
+}>
 ```

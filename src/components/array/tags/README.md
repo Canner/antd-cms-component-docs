@@ -1,8 +1,11 @@
-## Array tag
+## Usage
 
 ```jsx
-<array
-  keyName="tag"
-  value={immutable.fromJS(["tag 1", "tag 2"])}
-  ui="tag"/>
+<array keyName="tag" ui="tag"/>
+```
+
+## Value type
+
+```js
+Array<string>
 ```

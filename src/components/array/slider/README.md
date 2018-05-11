@@ -1,8 +1,11 @@
-## Array Slider
+## Usage
 
 ```jsx
-<array
-  keyName="range"
-  value={immutable.fromJS([1, 5])}
-  ui="slider"/>
+<array keyName="range" ui="slider"/>
+```
+
+## Value type
+
+```js
+Array<[number, number]>
 ```

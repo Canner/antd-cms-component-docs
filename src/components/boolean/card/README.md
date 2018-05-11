@@ -1,4 +1,4 @@
-## Boolean card
+## Usage
 
 ```jsx
 <boolean
@@ -8,4 +8,10 @@
     noText: "NO!!"
   }}
   ui="card"/>
+```
+
+## Value type
+
+```js
+boolean
 ```

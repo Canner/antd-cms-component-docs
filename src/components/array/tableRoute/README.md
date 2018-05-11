@@ -1,15 +1,10 @@
-## Array table route
+<!-- STORY -->
+
+## Usage
 
 ```jsx
 <array
   keyName="table"
-  value={immutable.fromJS([{
-    "title": "title 1",
-    "content": "content 1"
-  }, {
-    "title": "title 2",
-    "content": "content 2"
-  }])}
   uiParams={{
     columns: [{
       title: "title",
@@ -18,4 +13,12 @@
     }]
   }}
   ui="tableRoute"/>
+```
+
+## Value type
+
+```js
+Array<{
+  [string]: any
+}>
 ```

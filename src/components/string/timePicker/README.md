@@ -1,7 +1,11 @@
-## Time picker
+## Usage
 
 ```jsx
-<string
-  keyName="time"
-  ui="time"/>
+<string keyName="time" ui="time"/>
+```
+
+## Value type
+
+```js
+string
 ```

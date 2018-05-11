@@ -1,14 +1,14 @@
-## Array Gallery
+
+## Usage
 
 ```jsx
-<array
-  keyName="gallery"
-  imageServiceConfig={new ImgurService({
-    mashapeKey: '<mashapeKey>',
-    clientId: '<clientId>'
-  })}
-  value={immutable.fromJS([{
-    image: "<your image>"
-  }, ...])}
-  ui="gallery"/>
+<array keyName="gallery" ui="gallery"/>
+```
+
+## Value type
+
+```js
+Array<{
+  image: string
+}>
 ```

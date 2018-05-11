@@ -1,11 +1,11 @@
-## Input
+## Usage
 
 ```jsx
 <string keyName="name" ui="input"/>
 ```
 
-or 
+## Value type
 
-```jsx
-<string keyName="name"/>
+```js
+string
 ```

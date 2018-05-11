@@ -26,7 +26,8 @@ const initalData = fromJS([{
 const ArrayGalleryDefault = ExamplePrimitiveValueWrapper(initalData)(IntlComponent(ArrayGallery))
 
 storiesOf('Array', module)
-  .add('Gallery', customPreview(README, () => (
+  .addDecorator(customPreview(README))
+  .add('Gallery', () => (
     <Context.Provider value={contextValue()}>
       <ArrayGalleryDefault
         refId={new RefId("gallery")}
@@ -36,4 +37,4 @@ storiesOf('Array', module)
         })}
         />
     </Context.Provider>
-  )));
+  ));

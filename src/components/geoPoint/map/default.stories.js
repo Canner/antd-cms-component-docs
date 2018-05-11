@@ -11,10 +11,10 @@ import { storiesOf } from '@storybook/react';
 import ExamplePrimitiveValueWrapper from '../../ExamplePrimitiveValueHoc';
 
 const initalData = fromJS({
-  key: "Eiflj7DngaPmlrDljJfluILmlrDojorljYDmgJ3mupDot68yMzDlt7c",
-  label: "台灣新北市新莊區思源路230巷",
-  lat: 25.0489013,
-  lng: 121.46126290000007
+  key: "ChIJQap0KLe2woAR46AJ2Vczr1I",
+  label: "Lakers Team Shop, North Douglas Street",
+  lat: 33.9259554,
+  lng: -118.38406509999999
 })
 
 const MapWrapper = ExamplePrimitiveValueWrapper(initalData)(IntlComponent(Map))

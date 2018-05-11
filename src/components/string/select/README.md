@@ -1,4 +1,4 @@
-## Select
+## Usage
 
 ```jsx
 <string
@@ -13,4 +13,10 @@
       value: "2"
     }]
   }}/>
+```
+
+## Value type
+
+```js
+string
 ```

@@ -1,7 +1,11 @@
-## Textarea
+## Usage
 
 ```jsx
-<string
-  keyName="description"
-  ui="textarea"/>
+<string keyName="description" ui="textarea"/>
+```
+
+## Value type
+
+```js
+string
 ```

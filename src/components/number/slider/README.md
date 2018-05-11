@@ -1,4 +1,4 @@
-## Slider
+## Usage
 
 ```jsx
 <number
@@ -10,4 +10,11 @@
     unit: "unit"
   }}
   ui="slider"/>
+```
+
+
+## Value type
+
+```js
+number
 ```

@@ -1,18 +1,11 @@
-## Rate
+## Usage
 
 ```jsx
-<number
-  keyName="rate"
-  ui="rate"/>
+<number keyName="rate" ui="rate"/>
 ```
 
-### Allow half
+## Value type
 
 ```js
-<number
-  keyName="rate"
-  uiParams={{
-    allowHalf: true
-  }}
-  ui="rate"/>
+number
 ```

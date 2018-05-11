@@ -22,6 +22,10 @@ module.exports = {
           path.resolve(__dirname, "../node_modules/@canner/antd-string-editor"),
           path.resolve(__dirname, "../node_modules/react-flexbox-grid")
         ]
+      },
+      {
+        test: /\.txt$/,
+        loaders: ["raw-loader"]
       }
     ]
   }

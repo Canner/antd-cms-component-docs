@@ -1,4 +1,4 @@
-## Radio
+## Usage
 
 ```jsx
 <string
@@ -14,4 +14,10 @@
     }],
     defaultSelected: 1
   }}/>
+```
+
+## Value type
+
+```js
+string
 ```

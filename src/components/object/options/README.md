@@ -1,4 +1,4 @@
-## Options
+## Usage
 
 ```jsx
 <object
@@ -25,4 +25,27 @@
     }
   }}
   ui="options"/>
+```
+
+## Value type
+
+```js
+{
+  selectedKey: string,
+  [string]: any
+}
+```
+
+## Sample
+
+```js
+{
+  selectedKey: "option1",
+  option1: {
+    title: "this is title 1"
+  },
+  option2: {
+    content: "this is content 2"
+  }
+}
 ```

@@ -1,4 +1,4 @@
-## Card
+## Usage
 
 ```jsx
 <string
@@ -13,4 +13,10 @@
     }]
   }}
   ui="card"/>
+```
+
+## Value type
+
+```js
+string
 ```
