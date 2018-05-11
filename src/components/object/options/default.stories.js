@@ -46,8 +46,7 @@ storiesOf('Object', module)
           }, {
             title: 'Option2',
             key: 'option2'
-          }],
-          optionKey: 'selectedKey'
+          }]
         }}
         items={items}
         />
