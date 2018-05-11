@@ -9,7 +9,7 @@ import Select from '@canner/antd-string-select';
 import { storiesOf } from '@storybook/react';
 import ExamplePrimitiveValueWrapper from '../../ExamplePrimitiveValueHoc';
 
-const SelectDefault = ExamplePrimitiveValueWrapper("16:18")(IntlComponent(Select))
+const SelectDefault = ExamplePrimitiveValueWrapper('2')(IntlComponent(Select))
 
 storiesOf('String', module)
   .add('Select', customPreview(README, () => (
