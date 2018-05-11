@@ -4,6 +4,8 @@
 <array keyName="tab" ui="tabLeft"/>
 ```
 
+<!-- STORY -->
+
 ## Value type
 
 ```js

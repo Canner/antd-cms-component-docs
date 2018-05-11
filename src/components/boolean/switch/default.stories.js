@@ -15,9 +15,5 @@ storiesOf('Boolean', module)
   .add('Switch', customPreview(README, () => (
     <BooleanSwitchDefault
       refId={new RefId("switch")}
-      uiParams={{
-        yesText: "YES!!",
-        noText: "NO!!"
-      }}
       />
   )));

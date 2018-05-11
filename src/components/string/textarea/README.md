@@ -4,6 +4,8 @@
 <string keyName="description" ui="textarea"/>
 ```
 
+<!-- STORY -->
+
 ## Value type
 
 ```js

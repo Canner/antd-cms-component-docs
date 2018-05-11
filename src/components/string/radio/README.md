@@ -16,6 +16,8 @@
   }}/>
 ```
 
+<!-- STORY -->
+
 ## Value type
 
 ```js

@@ -15,6 +15,8 @@
   ui="card"/>
 ```
 
+<!-- STORY -->
+
 ## Value type
 
 ```js

@@ -4,6 +4,8 @@
 <string keyName="name" ui="input"/>
 ```
 
+<!-- STORY -->
+
 ## Value type
 
 ```js

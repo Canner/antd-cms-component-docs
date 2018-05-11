@@ -4,6 +4,8 @@
 <geoPoint keyName="place" ui="map"/>
 ```
 
+<!-- STORY -->
+
 ## Value type
 
 ```js

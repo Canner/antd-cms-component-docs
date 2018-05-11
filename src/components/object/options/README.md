@@ -13,19 +13,10 @@
     }],
     optionKey: 'selectedKey'
   }}
-  items={{
-    option1: {
-      type: "string",
-      keyName: "option1"
-    },
-    option2: {
-      keyName: "option2",
-      type: "string",
-      ui: "editor"
-    }
-  }}
   ui="options"/>
 ```
+
+<!-- STORY -->
 
 ## Value type
 
