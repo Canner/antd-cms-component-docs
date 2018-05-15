@@ -9,10 +9,8 @@ setConsoleOptions({
 });
 
 setOptions({
-  showDownPanel: false,
   name: 'canner-cms',
-  url: 'https://github.com/Canner/react-cms-components',
-  sidebarAnimations: true
+  url: 'https://github.com/Canner/react-cms-components'
 });
 
 function loadStories() {
