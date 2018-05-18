@@ -10,7 +10,7 @@ setConsoleOptions({
 
 setOptions({
   name: 'canner-cms',
-  url: 'https://github.com/Canner/react-cms-components'
+  url: 'https://github.com/Canner/antd-canner-components'
 });
 
 function loadStories() {
