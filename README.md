@@ -1,7 +1,11 @@
 # antd-cms-component-docs
 
-Documentation for antd-cms-component 
+> Documentation for antd-cms-component 
 
-## component map
+## Live
 
-https://github.com/Canner/canner-script/blob/master/src/utils.js#L11-L55
+http://antd-cms-component.canner.io/
+
+## Source code
+
+This repo only storage code for demo and examples. Original source of components is at: https://github.com/Canner/antd-canner-components
