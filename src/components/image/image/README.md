@@ -9,7 +9,23 @@
 ## Value type
 
 ```js
-string
+{
+  contentType: string,
+  name: string
+  size: number,
+  url: string,
+}
+```
+
+## Sample
+
+```js
+{
+  contentType: "image/jpg",
+  name: "mythumb.jpg",
+  size: 1233,
+  url: "https://image.com/mythumb.jpg"
+}
 ```
 
 ## uiParams props (optional)

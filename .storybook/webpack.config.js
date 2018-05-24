@@ -19,8 +19,7 @@ module.exports = {
         test: /\.css$/,
         loaders: ["style-loader", "css-loader"],
         include: [
-          path.resolve(__dirname, "../node_modules/@canner/antd-string-editor"),
-          path.resolve(__dirname, "../node_modules/react-flexbox-grid")
+          path.resolve(__dirname, "../node_modules")
         ]
       },
       {

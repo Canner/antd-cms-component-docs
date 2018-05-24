@@ -2,6 +2,13 @@
 import * as React from 'react';
 import {fromJS} from 'immutable';
 import type RefId from 'canner-ref-id';
+import {Button} from 'antd';
+import styled from 'styled-components';
+
+const Hint = styled.div`
+  font-color: #aaa;
+  margin-top: 16px;
+`
 
 type PrimitiveValue = string | boolean | number | Object | Array<any>;
 
@@ -9,11 +16,16 @@ export default (defaultValue: PrimitiveValue, rootValue?: PrimitiveValue) => (Co
   class ExamplePrimitiveValueWrapper extends ConfigOrComposedComponent {
     constructor(props: any) {
       super(props);
-
       this.state = {
         value: defaultValue,
         rootValue: defaultValue || rootValue
       };
+    }
+
+    onDeploy = (callback: Function) => {
+      this.setState({
+        callback
+      });
     }
 
     onChange = (refId: RefId | {firstRefId: RefId, secondRefId: RefId}, type: string, delta: PrimitiveValue): Promise<void> => {
@@ -79,14 +91,27 @@ export default (defaultValue: PrimitiveValue, rootValue?: PrimitiveValue) => (Co
     }
 
     render() {
-      const {value} = this.state;
-
+      const {value, callback} = this.state;
+      const {refId} = this.props;
       return (
-        <ConfigOrComposedComponent
-          {...this.props}
-          onChange={this.onChange}
-          value={value}
+        <React.Fragment>
+          <ConfigOrComposedComponent
+            {...this.props}
+            onChange={this.onChange}
+            value={value}
+            onDeploy={this.onDeploy}
           />
+          {
+            callback && <Hint>This button appears if the component call `onDeploy` function. Click it and you can see the data changed.</Hint>
+          }
+          {
+            callback && (
+              <Button onClick={() => console.log(refId, 'update', callback(value))}>
+                Deploy
+              </Button>
+            )
+          }
+        </React.Fragment>
       );
     }
   }
