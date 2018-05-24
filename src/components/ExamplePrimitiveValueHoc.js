@@ -1,5 +1,6 @@
 // @flow
 import * as React from 'react';
+import {fromJS} from 'immutable';
 import type RefId from 'canner-ref-id';
 
 type PrimitiveValue = string | boolean | number | Object | Array<any>;
@@ -58,7 +59,7 @@ export default (defaultValue: PrimitiveValue, rootValue?: PrimitiveValue) => (Co
           this.setState({value: value.push(delta)});
         } else {
           console.log(refId, type)
-          const createVal = value.push({})
+          const createVal = value.push(delta || fromJS({}))
           this.setState({value: createVal})
         }
       } else if (type === 'swap' && refId.firstRefId) {

@@ -5,7 +5,7 @@ import RefId from 'canner-ref-id';
 import README from './README.md';
 import {fromJS} from 'immutable';
 import IntlComponent from 'components/IntlComponent';
-import {Context} from '@canner/react-cms-helpers';
+import {Context} from 'canner-helpers';
 
 import TabLeft from '@canner/antd-array-tab_left';
 import { storiesOf } from '@storybook/react';

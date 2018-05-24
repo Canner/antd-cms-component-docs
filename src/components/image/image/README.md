@@ -1,7 +1,7 @@
 ## Usage
 
 ```jsx
-<file keyName="photo" ui="image"/>
+<image keyName="photo" ui="image"/>
 ```
 
 <!-- STORY -->
