@@ -11,7 +11,12 @@
 
 ```js
 Array<{
-  image: string
+  image: {
+    url: string,
+    size: number,
+    contentType: string,
+    name: string
+  }
 }>
 ```
 

@@ -1,7 +1,7 @@
 ## Usage
 
 ```jsx
-<geoPoint keyName="place" ui="map"/>
+<geoPoint keyName="place"/>
 ```
 
 <!-- STORY -->
