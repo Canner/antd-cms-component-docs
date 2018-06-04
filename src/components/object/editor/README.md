@@ -2,17 +2,9 @@
 
 ```jsx
 <object
-  keyName="options"
-  uiParams={{
-    options: [{
-      title: 'Option1',
-      key: 'option1'
-    }, {
-      title: 'Option2',
-      key: 'option2'
-    }]
-  }}
-  ui="options"/>
+  keyName="editor"
+  ui="editor"
+/>
 ```
 
 <!-- STORY -->
@@ -21,8 +13,8 @@
 
 ```js
 {
-  selectedKey: string,
-  [string]: any
+  slate: JSONString,
+  html: HtmlString
 }
 ```
 
@@ -30,13 +22,8 @@
 
 ```js
 {
-  selectedKey: "option1",
-  option1: {
-    title: "this is title 1"
-  },
-  option2: {
-    content: "this is content 2"
-  }
+  html: "<p>fdsfds</p>",
+  state: "{\"object\":\"value\",\"document\":{\"object\":\"document\",\"data\":{},\"nodes\":[{\"object\":\"block\",\"type\":\"paragraph\",\"isVoid\":false,\"data\":{},\"nodes\":[{\"object\":\"text\",\"leaves\":[{\"object\":\"leaf\",\"text\":\"fdsfds\",\"marks\":[]}]}]}]}}"
 }
 ```
 
