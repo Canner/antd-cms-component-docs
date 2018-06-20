@@ -4,7 +4,7 @@
 
 ## Live
 
-http://antd-cms-component.canner.io/
+http://www.canner.io/component
 
 ## Source code
 
