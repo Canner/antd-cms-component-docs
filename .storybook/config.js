@@ -9,8 +9,8 @@ setConsoleOptions({
 });
 
 setOptions({
-  name: 'canner-cms',
-  url: 'https://github.com/Canner/antd-canner-components'
+  name: 'Canner',
+  url: '/'
 });
 
 function loadStories() {
