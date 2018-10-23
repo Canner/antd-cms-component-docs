@@ -1,7 +1,7 @@
 ## Usage
 
 ```jsx
-<number keyName="number" ui="input"/>
+<number keyName="number" ui="input" />
 ```
 
 <!-- STORY -->
@@ -27,13 +27,13 @@ number
     <tr>
       <td>min</td>
       <td>number</td>
-      <td>0</td>
+      <td>-</td>
       <td>Minimum value</td>
     </tr>
     <tr>
       <td>max</td>
       <td>number</td>
-      <td>100</td>
+      <td>-</td>
       <td>Maximum value</td>
     </tr>
     <tr>
@@ -45,8 +45,14 @@ number
     <tr>
       <td>unit</td>
       <td>string</td>
-      <td></td>
+      <td>-</td>
       <td>Unit of the slider</td>
+    </tr>
+    <tr>
+      <td>formatter</td>
+      <td>function</td>
+      <td>-</td>
+      <td>Specifies the format of the value presented.</td>
     </tr>
   </tbody>
 </table>
