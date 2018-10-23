@@ -12,7 +12,12 @@ module.exports = {
     rules: [
       {
         test: /\.less$/,
-        loaders: ["style-loader", "css-loader", "less-loader"],
+        use: ["style-loader", "css-loader", {
+          loader: "less-loader",
+          options: {
+            javascriptEnabled: true
+          }
+        }],
         include: path.resolve(__dirname, "../node_modules/antd")
       },
       {
