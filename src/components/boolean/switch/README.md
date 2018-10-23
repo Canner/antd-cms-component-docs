@@ -1,7 +1,7 @@
 ## Usage
 
 ```jsx
-<boolean keyName="switch" ui="switch"/>
+<boolean keyName="switch" ui="switch" uiParams={uiParams} />
 ```
 
 <!-- STORY -->
@@ -27,13 +27,13 @@ boolean
     <tr>
       <td>yesText</td>
       <td>string</td>
-      <td></td>
+      <td>'Yes'</td>
       <td>Select true display text</td>
     </tr>
     <tr>
       <td>noText</td>
       <td>string</td>
-      <td></td>
+      <td>'No'</td>
       <td>Select false display text</td>
     </tr>
   </tbody>

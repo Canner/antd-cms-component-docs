@@ -3,10 +3,7 @@
 ```jsx
 <boolean
   keyName="card"
-  uiParams={{
-    yesText: "YES!!",
-    noText: "NO!!"
-  }}
+  uiParams={uiParams}
   ui="card"/>
 ```
 
@@ -33,13 +30,13 @@ boolean
     <tr>
       <td>yesText</td>
       <td>string</td>
-      <td></td>
+      <td>'Yes'</td>
       <td>Select true display text</td>
     </tr>
     <tr>
       <td>noText</td>
       <td>string</td>
-      <td></td>
+      <td>'No'</td>
       <td>Select false display text</td>
     </tr>
   </tbody>
