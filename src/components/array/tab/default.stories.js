@@ -5,9 +5,9 @@ import RefId from 'canner-ref-id';
 import README from './README.md';
 import IntlComponent from 'components/IntlComponent';
 import {Context} from 'canner-helpers';
-import {withKnobs, object} from '@storybook/addon-knobs';
+import {withKnobs, text, select} from '@storybook/addon-knobs';
 
-import Tag from '@canner/antd-array-tag';
+import Tab from '@canner/antd-array-tabs';
 import { storiesOf } from '@storybook/react';
 import ExamplePrimitiveValueWrapper from '../../ExamplePrimitiveValueHoc';
 import contextValue from 'components/context';
@@ -16,16 +16,24 @@ import contextValue from 'components/context';
 storiesOf('Array', module)
   .addDecorator(withKnobs)
   .addDecorator(customPreview(README))
-  .add('Tag', () => {
-    const initalData = object('defaultOptions', ["tag 1", "tag 2"]);
-    const TagDefault = ExamplePrimitiveValueWrapper(initalData)(IntlComponent(Tag))
-
+  .add('Tab', () => {
+    const titleKey = text('titleKey', 'title');
+    const initalData = [{
+      [titleKey]: "title 1",
+      "content": "content 1"
+    }, {
+      [titleKey]: "title 2",
+      "content": "content 2"
+    }];
+    
+    const TabTopDefault = ExamplePrimitiveValueWrapper(initalData)(IntlComponent(Tab))
     return (
       <Context.Provider value={contextValue()}>
-        <TagDefault
-          refId={new RefId("tag")}
+        <TabTopDefault
+          refId={new RefId("tab")}
           uiParams={{
-            defaultOptions: initalData
+            titleKey,
+            position: select('position', ['top', 'left', 'right', 'bottom'])
           }}
         />
       </Context.Provider>

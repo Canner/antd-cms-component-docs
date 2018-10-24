@@ -58,6 +58,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "devDependencies": {
+    "@canner/storage": "^2.0.5",
     "@storybook/addon-actions": "^3.4.3",
     "@storybook/addon-console": "^1.0.0",
     "@storybook/addon-knobs": "^3.4.11",

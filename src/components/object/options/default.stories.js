@@ -3,7 +3,6 @@ import React from 'react';
 import customPreview from 'stories/customPreview';
 import RefId from 'canner-ref-id';
 import README from './README.md';
-import {fromJS} from 'immutable';
 import {Context} from 'canner-helpers';
 
 import Options from '@canner/antd-object-options';
@@ -11,7 +10,7 @@ import { storiesOf } from '@storybook/react';
 import ExamplePrimitiveValueWrapper from '../../ExamplePrimitiveValueHoc';
 import contextValue from 'components/context';
 
-const initialData = fromJS({
+const initialData = {
   selectedKey: "option1",
   option1: {
     title: "this is title 1"
@@ -19,7 +18,7 @@ const initialData = fromJS({
   option2: {
     content: "this is content 2"
   }
-})
+}
 
 const OptionsDefault = ExamplePrimitiveValueWrapper(initialData)(Options)
 const items = {

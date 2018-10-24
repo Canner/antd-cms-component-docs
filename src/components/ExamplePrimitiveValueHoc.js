@@ -1,9 +1,9 @@
 // @flow
 import * as React from 'react';
-import {fromJS} from 'immutable';
 import type RefId from 'canner-ref-id';
 import {Button} from 'antd';
 import styled from 'styled-components';
+import set from 'lodash/set';
 
 const Hint = styled.div`
   font-color: #aaa;
@@ -39,15 +39,15 @@ export default (defaultValue: PrimitiveValue, rootValue?: PrimitiveValue) => (Co
         if (refId.getPathArr()[0] === 'variants') {
           console.log(refId, type)
           // $FlowFixMe
-          const createVal = value.setIn(refId.getPathArr().slice(1), delta)
+          const createVal = set(value, refId.getPathArr().slice(1), delta);
           this.setState({value: createVal})
           // $FlowFixMe
         } else if (refId.getPathArr()[0] === 'relation') {
           console.log(refId, type, delta)
           this.setState({value: rootValue.filter(v => {
-            if (typeof delta === 'string') return v.get('_id') === delta;
+            if (typeof delta === 'string') return v._id === delta;
             // $FlowFixMe
-            return (delta || []).indexOf(v.get('_id')) !== -1;
+            return (delta || []).indexOf(v._id) !== -1;
           })});
         } else {
           console.log(refId, type, delta)
@@ -63,15 +63,15 @@ export default (defaultValue: PrimitiveValue, rootValue?: PrimitiveValue) => (Co
         if (refId.getPathArr()[0] === 'variants') {
           console.log(refId, type)
           // $FlowFixMe
-          const createVal = value.update(refId.getPathArr()[1], list => list.push(delta))
+          const createVal = value.update(refId.getPathArr()[1], list => list.concat(delta))
           this.setState({value: createVal})
           // $FlowFixMe
         } else if (refId.getPathArr()[0] === 'relation'){
           console.log(refId, type, delta)
-          this.setState({value: value.push(delta)});
+          this.setState({value: value.concat(delta)});
         } else {
-          console.log(refId, type)
-          const createVal = value.push(delta || fromJS({}))
+          const createVal = value.concat(delta || {})
+          console.log(refId, type, createVal)
           this.setState({value: createVal})
         }
       } else if (type === 'swap' && refId.firstRefId) {
@@ -82,9 +82,11 @@ export default (defaultValue: PrimitiveValue, rootValue?: PrimitiveValue) => (Co
         const secondRefIdArr = secondRefId.getPathArr();
         const firstIndex = firstRefIdArr[firstRefIdArr.length - 1];
         const secondIndex = secondRefIdArr[secondRefIdArr.length - 1];
-        let newValue = value.set(firstIndex, value.get(secondIndex));
-        newValue = newValue.set(secondIndex, value.get(firstIndex));
-        this.setState({value: newValue});
+        const secondValue = value[secondIndex];
+        const firstValue = value[firstIndex];
+        value[firstIndex] = secondValue;
+        value[secondIndex] = firstValue;
+        this.setState({value});
       }
 
       return Promise.resolve();

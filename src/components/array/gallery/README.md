@@ -44,5 +44,17 @@ Array<{
       <td>false</td>
       <td>Wether enable drag and drop feature</td>
     </tr>
+    <tr>
+      <td>limitSize</td>
+      <td>number</td>
+      <td>-</td>
+      <td>The limit size of images.</td>
+    </tr>
+    <tr>
+      <td>dirname</td>
+      <td>string</td>
+      <td>-</td>
+      <td>The diretory name of the images.</td>
+    </tr>
   </tbody>
 </table>
