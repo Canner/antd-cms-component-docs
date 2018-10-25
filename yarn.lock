@@ -177,9 +177,9 @@
   dependencies:
     react-intl "^2.4.0"
 
-"@canner/antd-components@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@canner/antd-components/-/antd-components-0.5.4.tgz#9bd930f5586846568cbba16880545db48d31d142"
+"@canner/antd-components@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@canner/antd-components/-/antd-components-0.5.5.tgz#e4bf06cc587ba93bde2f7d626cdec2730a1e9fe6"
   dependencies:
     "@canner/antd-array-gallery" "^0.5.1"
     "@canner/antd-array-panel" "^0.5.1"
@@ -201,9 +201,9 @@
     "@canner/antd-number-input" "^0.5.1"
     "@canner/antd-number-rate" "^0.5.1"
     "@canner/antd-number-slider" "^0.5.1"
-    "@canner/antd-object-editor" "^0.5.3"
+    "@canner/antd-object-editor" "^0.5.5"
     "@canner/antd-object-image" "^0.5.1"
-    "@canner/antd-object-map" "^0.5.1"
+    "@canner/antd-object-map" "^0.5.5"
     "@canner/antd-object-options" "^0.5.1"
     "@canner/antd-object-variants" "^0.5.1"
     "@canner/antd-relation-multiple_select" "^0.5.1"
@@ -248,9 +248,9 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-number-slider/-/antd-number-slider-0.5.1.tgz#7e121d53f38b4af182bdc553a17695239b5e1389"
 
-"@canner/antd-object-editor@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@canner/antd-object-editor/-/antd-object-editor-0.5.3.tgz#e85074667fd757faa01a8b7c22ff81aca2aabd31"
+"@canner/antd-object-editor@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@canner/antd-object-editor/-/antd-object-editor-0.5.5.tgz#96495597b85abed3402aa557fdeb43171c5af09e"
   dependencies:
     quill-image-drop-module "^1.0.3"
     quill-image-resize-module "^3.0.0"
@@ -266,12 +266,12 @@
     "@canner/image-upload" "^0.13.4"
     react-loading-image "^0.4.1"
 
-"@canner/antd-object-map@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-object-map/-/antd-object-map-0.5.1.tgz#f71c9647c6d78386bac3d8798a1350e29dbb119e"
+"@canner/antd-object-map@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@canner/antd-object-map/-/antd-object-map-0.5.5.tgz#4482524d57dc8c7501eb6795b0dfa2f779de7e00"
   dependencies:
     "@canner/antd-locales" "^0.5.1"
-    antd-geosuggest "^0.3.2"
+    antd-geosuggest "^0.3.3"
     react-google-maps "^9.4.5"
 
 "@canner/antd-object-options@^0.5.1":
@@ -823,9 +823,9 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd-geosuggest@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/antd-geosuggest/-/antd-geosuggest-0.3.2.tgz#91421a3e89df03400d72be4ee56d784e155a54e9"
+antd-geosuggest@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/antd-geosuggest/-/antd-geosuggest-0.3.3.tgz#accf1384a02662a2a086fe6f2c0092f6ae2adff0"
   dependencies:
     lodash.debounce "^4.0.8"
 
