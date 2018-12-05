@@ -3,7 +3,7 @@ import React from 'react';
 import customPreview from 'stories/customPreview';
 import RefId from 'canner-ref-id';
 import README from './README.md';
-import { withKnobs, text, object } from '@storybook/addon-knobs/react';
+import { withKnobs, text, object, boolean } from '@storybook/addon-knobs/react';
 import IntlComponent from 'components/IntlComponent';
 
 import MultipleSelectTree from '@canner/antd-relation-multiple_select_tree';

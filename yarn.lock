@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@ant-design/icons-react@~1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons-react/-/icons-react-1.1.2.tgz#df25c4560864f8a3b687b305c3238daff048ed72"
+  dependencies:
+    ant-design-palettes "^1.1.3"
+    babel-runtime "^6.26.0"
+
+"@ant-design/icons@~1.1.15":
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-1.1.16.tgz#ac6426216934e3f4bc108f2f48f92ed66789235e"
+
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
@@ -94,9 +105,9 @@
     "@canner/image-upload" "^0.13.4"
     canner-image-gallery "^0.3.4"
 
-"@canner/antd-array-panel@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-panel/-/antd-array-panel-0.5.1.tgz#7e7e04370e8d1393c2ae2320746dfafe83e2eb0e"
+"@canner/antd-array-panel@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-panel/-/antd-array-panel-0.5.6.tgz#5c1fbb55ce9304809967e27771b0774687fc462e"
   dependencies:
     react-intl "^2.4.0"
 
@@ -104,66 +115,66 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-array-slider/-/antd-array-slider-0.5.1.tgz#2aff988b36a77dd369d8db98bbfc9410078804b2"
 
-"@canner/antd-array-tab_bottom@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_bottom/-/antd-array-tab_bottom-0.5.2.tgz#57c56d880f4b6545a81ab680243bc4e7506277e9"
+"@canner/antd-array-tab_bottom@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_bottom/-/antd-array-tab_bottom-0.5.6.tgz#630b3ec388200cfd3e0a0dd826b0e3a1003daefa"
   dependencies:
-    "@canner/antd-array-tabs" "^0.5.2"
+    "@canner/antd-array-tabs" "^0.5.6"
 
-"@canner/antd-array-tab_left@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_left/-/antd-array-tab_left-0.5.2.tgz#796306ff1599f18eda64e95e126b144a5efd06b5"
+"@canner/antd-array-tab_left@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_left/-/antd-array-tab_left-0.5.6.tgz#5430cc62eb0248577bdd17ba1c0b1a5da7055a0f"
   dependencies:
-    "@canner/antd-array-tabs" "^0.5.2"
+    "@canner/antd-array-tabs" "^0.5.6"
 
-"@canner/antd-array-tab_right@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_right/-/antd-array-tab_right-0.5.2.tgz#5cd560b6f8151b40958466c784dd780f7b647326"
+"@canner/antd-array-tab_right@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_right/-/antd-array-tab_right-0.5.6.tgz#1b870a72caaa58f61eb4270ed1a6552c8a087fc5"
   dependencies:
-    "@canner/antd-array-tabs" "^0.5.2"
+    "@canner/antd-array-tabs" "^0.5.6"
 
-"@canner/antd-array-tab_top@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_top/-/antd-array-tab_top-0.5.2.tgz#5d740f71c0e73d5b8791ef77211e28b6e8bedc4f"
+"@canner/antd-array-tab_top@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tab_top/-/antd-array-tab_top-0.5.6.tgz#9240144ff68f7848f15f34491b893c0c06e3b07f"
   dependencies:
-    "@canner/antd-array-tabs" "^0.5.2"
+    "@canner/antd-array-tabs" "^0.5.6"
 
-"@canner/antd-array-table@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-table/-/antd-array-table-0.5.1.tgz#f252bca47110546bedf8900d1b3dc2b24a1d116a"
+"@canner/antd-array-table@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-table/-/antd-array-table-0.5.18.tgz#2207698c7ed5b812c4783c1c77cdd7591c3af4bf"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
-    "@canner/antd-share-toolbar" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-share-table" "^0.5.18"
     prop-types "^15.6.0"
     styled-components "^3.4.6"
 
-"@canner/antd-array-table_route@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-table_route/-/antd-array-table_route-0.5.1.tgz#8053427fcf7acef3568104a9381fa3229b66475a"
+"@canner/antd-array-table_route@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-table_route/-/antd-array-table_route-0.5.18.tgz#7ad27e3c5b4993cd99d1be748f1af21b58013c1b"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
-    "@canner/antd-share-toolbar" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-share-table" "^0.5.18"
     styled-components "^3.4.6"
 
-"@canner/antd-array-tabs@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tabs/-/antd-array-tabs-0.5.2.tgz#926de642d0bfabbf32e1dc02024544309fef6206"
+"@canner/antd-array-tabs@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tabs/-/antd-array-tabs-0.5.6.tgz#9bd7724cada369b25782b97917264dbcea1adcb4"
   dependencies:
     "@canner/rc-tabs" "^9.2.7"
     react-sortablejs "^1.3.6"
     sortablejs "^1.7.0"
 
-"@canner/antd-array-tag@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tag/-/antd-array-tag-0.5.1.tgz#1f31559e4d74d2b34a56852f322cdfcec4df0b43"
+"@canner/antd-array-tag@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tag/-/antd-array-tag-0.5.18.tgz#338f193e73a9650fda4e974efea63e6d4af31de0"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
 
-"@canner/antd-array-tree@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-array-tree/-/antd-array-tree-0.5.1.tgz#ceb936d5fc74a628feacf714883512a40dd1eec0"
+"@canner/antd-array-tree@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-array-tree/-/antd-array-tree-0.5.18.tgz#8871ec66a0539201de27b4998fc59a45b5c6536b"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
 
 "@canner/antd-boolean-card@^0.5.1":
   version "0.5.1"
@@ -177,50 +188,50 @@
   dependencies:
     react-intl "^2.4.0"
 
-"@canner/antd-components@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@canner/antd-components/-/antd-components-0.5.5.tgz#e4bf06cc587ba93bde2f7d626cdec2730a1e9fe6"
+"@canner/antd-components@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-components/-/antd-components-0.5.18.tgz#cfda8dbb16b535879d2501a8ac6474b8d922efa5"
   dependencies:
     "@canner/antd-array-gallery" "^0.5.1"
-    "@canner/antd-array-panel" "^0.5.1"
+    "@canner/antd-array-panel" "^0.5.6"
     "@canner/antd-array-slider" "^0.5.1"
-    "@canner/antd-array-tab_bottom" "^0.5.2"
-    "@canner/antd-array-tab_left" "^0.5.2"
-    "@canner/antd-array-tab_right" "^0.5.2"
-    "@canner/antd-array-tab_top" "^0.5.2"
-    "@canner/antd-array-table" "^0.5.1"
-    "@canner/antd-array-table_route" "^0.5.1"
-    "@canner/antd-array-tabs" "^0.5.2"
-    "@canner/antd-array-tag" "^0.5.1"
-    "@canner/antd-array-tree" "^0.5.1"
+    "@canner/antd-array-tab_bottom" "^0.5.6"
+    "@canner/antd-array-tab_left" "^0.5.6"
+    "@canner/antd-array-tab_right" "^0.5.6"
+    "@canner/antd-array-tab_top" "^0.5.6"
+    "@canner/antd-array-table" "^0.5.18"
+    "@canner/antd-array-table_route" "^0.5.18"
+    "@canner/antd-array-tabs" "^0.5.6"
+    "@canner/antd-array-tag" "^0.5.18"
+    "@canner/antd-array-tree" "^0.5.18"
     "@canner/antd-boolean-card" "^0.5.1"
     "@canner/antd-boolean-switch" "^0.5.1"
     "@canner/antd-indicator-amount" "^0.5.1"
     "@canner/antd-indicator-list" "^0.5.1"
-    "@canner/antd-locales" "^0.5.1"
-    "@canner/antd-number-input" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-number-input" "^0.5.18"
     "@canner/antd-number-rate" "^0.5.1"
     "@canner/antd-number-slider" "^0.5.1"
-    "@canner/antd-object-editor" "^0.5.5"
-    "@canner/antd-object-image" "^0.5.1"
-    "@canner/antd-object-map" "^0.5.5"
+    "@canner/antd-object-editor" "^0.5.15"
+    "@canner/antd-object-image" "^0.5.18"
+    "@canner/antd-object-map" "^0.5.18"
     "@canner/antd-object-options" "^0.5.1"
     "@canner/antd-object-variants" "^0.5.1"
-    "@canner/antd-relation-multiple_select" "^0.5.1"
-    "@canner/antd-relation-multiple_select_tree" "^0.5.1"
-    "@canner/antd-relation-single_select" "^0.5.1"
-    "@canner/antd-relation-single_select_tree" "^0.5.1"
+    "@canner/antd-relation-multiple_select" "^0.5.18"
+    "@canner/antd-relation-multiple_select_tree" "^0.5.8"
+    "@canner/antd-relation-single_select" "^0.5.18"
+    "@canner/antd-relation-single_select_tree" "^0.5.17"
     "@canner/antd-share-card" "^0.5.1"
-    "@canner/antd-share-relation" "^0.5.1"
-    "@canner/antd-share-toolbar" "^0.5.1"
+    "@canner/antd-share-relation" "^0.5.18"
+    "@canner/antd-share-toolbar" "^0.5.18"
     "@canner/antd-string-card" "^0.5.1"
-    "@canner/antd-string-date_time_picker" "^0.5.1"
+    "@canner/antd-string-date_time_picker" "^0.5.18"
     "@canner/antd-string-input" "^0.5.1"
-    "@canner/antd-string-link" "^0.5.1"
+    "@canner/antd-string-link" "^0.5.18"
     "@canner/antd-string-radio" "^0.5.1"
-    "@canner/antd-string-select" "^0.5.1"
+    "@canner/antd-string-select" "^0.5.18"
     "@canner/antd-string-textarea" "^0.5.4"
-    "@canner/antd-string-time_picker" "^0.5.1"
+    "@canner/antd-string-time_picker" "^0.5.18"
 
 "@canner/antd-indicator-amount@^0.5.1":
   version "0.5.1"
@@ -230,15 +241,15 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-indicator-list/-/antd-indicator-list-0.5.1.tgz#b290bdb81dfbf159c86cfa844ec5ef05e0471a7a"
 
-"@canner/antd-locales@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-locales/-/antd-locales-0.5.1.tgz#c1fce26d44af7b6a087cdfc734c626a96af1ac0d"
+"@canner/antd-locales@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-locales/-/antd-locales-0.5.18.tgz#8eeadb8aa07cdce3f2846f75e6cdb0064ead779c"
   dependencies:
     dayjs "^1.7.4"
 
-"@canner/antd-number-input@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-number-input/-/antd-number-input-0.5.1.tgz#3b871f06b3168293d4f89e3ad62006007b6b79e2"
+"@canner/antd-number-input@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-number-input/-/antd-number-input-0.5.18.tgz#18ec8eda9e8b33468e0be341aa0018e9bd913c3e"
 
 "@canner/antd-number-rate@^0.5.1":
   version "0.5.1"
@@ -248,29 +259,29 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-number-slider/-/antd-number-slider-0.5.1.tgz#7e121d53f38b4af182bdc553a17695239b5e1389"
 
-"@canner/antd-object-editor@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@canner/antd-object-editor/-/antd-object-editor-0.5.5.tgz#96495597b85abed3402aa557fdeb43171c5af09e"
+"@canner/antd-object-editor@^0.5.15":
+  version "0.5.15"
+  resolved "https://registry.yarnpkg.com/@canner/antd-object-editor/-/antd-object-editor-0.5.15.tgz#ea70ebcecb7e4d8a7b1687bae7a32497f1a11dbe"
   dependencies:
     quill-image-drop-module "^1.0.3"
     quill-image-resize-module "^3.0.0"
     react-no-ssr "^1.1.0"
     react-quill "^1.3.1"
 
-"@canner/antd-object-image@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-object-image/-/antd-object-image-0.5.1.tgz#d7f9f6fb92767411e759c7fb637bf2e7d10856a2"
+"@canner/antd-object-image@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-object-image/-/antd-object-image-0.5.18.tgz#343d065493edcfe2007dd92f617f49b0a9dbba67"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
     "@canner/image-service-config" "^0.3.0"
     "@canner/image-upload" "^0.13.4"
     react-loading-image "^0.4.1"
 
-"@canner/antd-object-map@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@canner/antd-object-map/-/antd-object-map-0.5.5.tgz#4482524d57dc8c7501eb6795b0dfa2f779de7e00"
+"@canner/antd-object-map@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-object-map/-/antd-object-map-0.5.18.tgz#4938836583e7ef70e8ee9d3b4dcc15b128f15383"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
     antd-geosuggest "^0.3.3"
     react-google-maps "^9.4.5"
 
@@ -284,34 +295,35 @@
   dependencies:
     styled-components "^3.2.6"
 
-"@canner/antd-relation-multiple_select@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-relation-multiple_select/-/antd-relation-multiple_select-0.5.1.tgz#b7e80c4383142d24f04a5dc27d2a4cc3243d1101"
+"@canner/antd-relation-multiple_select@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-relation-multiple_select/-/antd-relation-multiple_select-0.5.18.tgz#e6c8d54aa31ccf8bb1c36cdf971cb666eda3952e"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
-    "@canner/antd-share-relation" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-share-relation" "^0.5.18"
     lodash.difference "*"
 
-"@canner/antd-relation-multiple_select_tree@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-relation-multiple_select_tree/-/antd-relation-multiple_select_tree-0.5.1.tgz#d526b4580bd065473fd46d6cccf531f6b2679d66"
+"@canner/antd-relation-multiple_select_tree@^0.5.8":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@canner/antd-relation-multiple_select_tree/-/antd-relation-multiple_select_tree-0.5.8.tgz#650847f51cd0c60727867b7c52c026e1d943bf74"
   dependencies:
     lodash.template "^4.4.0"
     react-content-loader "^3.1.2"
     styled-components "^3.2.6"
 
-"@canner/antd-relation-single_select@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-relation-single_select/-/antd-relation-single_select-0.5.1.tgz#13e2236980982770ba00417349e0ba5684822b82"
+"@canner/antd-relation-single_select@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-relation-single_select/-/antd-relation-single_select-0.5.18.tgz#bad19f165a2e3c5f7c13affc72c07ab9bf87346d"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
-    "@canner/antd-share-relation" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-share-relation" "^0.5.18"
+    lodash.get "^4.4.2"
     lodash.template "^4.4.0"
     styled-components "^3.2.6"
 
-"@canner/antd-relation-single_select_tree@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-relation-single_select_tree/-/antd-relation-single_select_tree-0.5.1.tgz#450e32252fbe0f903f0a2514ccd072bc8ccba8af"
+"@canner/antd-relation-single_select_tree@^0.5.17":
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/@canner/antd-relation-single_select_tree/-/antd-relation-single_select_tree-0.5.17.tgz#0b6aee5bf46b486d2f388b778548b237960d1265"
   dependencies:
     lodash.template "^4.4.0"
     react-content-loader "^3.1.2"
@@ -321,18 +333,27 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-share-card/-/antd-share-card-0.5.1.tgz#e148588da8d5fc6628003a012311a760165fa5ce"
 
-"@canner/antd-share-relation@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-share-relation/-/antd-share-relation-0.5.1.tgz#be5ddd407fd3b702cba1a4b76425551e14d819f2"
+"@canner/antd-share-relation@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-share-relation/-/antd-share-relation-0.5.18.tgz#065fcf4ea6cc6c979401214a479b3b5d3c1d7700"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
-    "@canner/antd-share-toolbar" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-share-toolbar" "^0.5.18"
 
-"@canner/antd-share-toolbar@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-share-toolbar/-/antd-share-toolbar-0.5.1.tgz#1a87a5d215200a3f58000d55bcddf3b96f4b0d03"
+"@canner/antd-share-table@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-share-table/-/antd-share-table-0.5.18.tgz#c140ec07e4ec91a0ec107c427206dec69381f52f"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
+    "@canner/antd-share-toolbar" "^0.5.18"
+    prop-types "^15.6.0"
+    styled-components "^3.4.6"
+
+"@canner/antd-share-toolbar@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-share-toolbar/-/antd-share-toolbar-0.5.18.tgz#d70b58965bc8add64631936614895a035487c016"
+  dependencies:
+    "@canner/antd-locales" "^0.5.18"
 
 "@canner/antd-string-card@^0.5.1":
   version "0.5.1"
@@ -340,11 +361,11 @@
   dependencies:
     "@canner/antd-share-card" "^0.5.1"
 
-"@canner/antd-string-date_time_picker@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-string-date_time_picker/-/antd-string-date_time_picker-0.5.1.tgz#6682164982fc98943dff1fda503d7f07904a0dc9"
+"@canner/antd-string-date_time_picker@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-string-date_time_picker/-/antd-string-date_time_picker-0.5.18.tgz#a96bda69d6223cd129d4876a71a677c901f4984c"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
     moment "^2.20.1"
     moment-timezone "^0.5.14"
     react-intl "^2.4.0"
@@ -353,11 +374,11 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-string-input/-/antd-string-input-0.5.1.tgz#cc9a3f8baaa79f38c2291ddac7c94b44d5cd7d42"
 
-"@canner/antd-string-link@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-string-link/-/antd-string-link-0.5.1.tgz#85eb285860449de88a04fcbcadd4e7a52b696661"
+"@canner/antd-string-link@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-string-link/-/antd-string-link-0.5.18.tgz#713f2779738a35eac502c08c6102af383b5db8c2"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
     "@canner/antd-string-input" "^0.5.1"
     react-intl "^2.4.0"
 
@@ -365,21 +386,21 @@
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@canner/antd-string-radio/-/antd-string-radio-0.5.1.tgz#ec402091c0223302208fdc323e1f4b8fdb95aa7e"
 
-"@canner/antd-string-select@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-string-select/-/antd-string-select-0.5.1.tgz#7b05410bc3aca3b9270bb1aee8cdc553e0f90dfb"
+"@canner/antd-string-select@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-string-select/-/antd-string-select-0.5.18.tgz#7589528ac626e40fc3b72771ba9dc928a819f1bb"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
 
 "@canner/antd-string-textarea@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@canner/antd-string-textarea/-/antd-string-textarea-0.5.4.tgz#b45d71e1d7993b2d6cd163a121bede3060f4408b"
 
-"@canner/antd-string-time_picker@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@canner/antd-string-time_picker/-/antd-string-time_picker-0.5.1.tgz#f2bdb37eab2834e17a5e8f102c5a0bd6f700a7be"
+"@canner/antd-string-time_picker@^0.5.18":
+  version "0.5.18"
+  resolved "https://registry.yarnpkg.com/@canner/antd-string-time_picker/-/antd-string-time_picker-0.5.18.tgz#11a65cbcf73c7d4c4dbdaf402459226da1a482e2"
   dependencies:
-    "@canner/antd-locales" "^0.5.1"
+    "@canner/antd-locales" "^0.5.18"
     moment-timezone "^0.5.14"
 
 "@canner/image-service-config@^0.3.0":
@@ -411,9 +432,9 @@
     rc-util "^4.0.4"
     warning "^3.0.0"
 
-"@canner/storage@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@canner/storage/-/storage-2.0.5.tgz#0f35ad69da1b6f8f55b6e207e20ba21d78eb938c"
+"@canner/storage@^2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@canner/storage/-/storage-2.0.11.tgz#4d25e9563963a72f373ca0db716ff242706f1b3c"
   dependencies:
     axios "^0.18.0"
     promise-polyfill "^8.1.0"
@@ -733,6 +754,12 @@ add-dom-event-listener@1.x:
   dependencies:
     object-assign "4.x"
 
+add-dom-event-listener@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/add-dom-event-listener/-/add-dom-event-listener-1.1.0.tgz#6a92db3a0dd0abc254e095c0f1dc14acbbaae310"
+  dependencies:
+    object-assign "4.x"
+
 address@1.0.3, address@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/address/-/address-1.0.3.tgz#b5f50631f8d6cec8bd20c963963afb55e06cbce9"
@@ -823,58 +850,73 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
+ant-design-palettes@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/ant-design-palettes/-/ant-design-palettes-1.1.3.tgz#84119b1a4d86363adc52a38d587e65336a0a27dd"
+  dependencies:
+    tinycolor2 "^1.4.1"
+
 antd-geosuggest@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/antd-geosuggest/-/antd-geosuggest-0.3.3.tgz#accf1384a02662a2a086fe6f2c0092f6ae2adff0"
   dependencies:
     lodash.debounce "^4.0.8"
 
-antd@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.5.1.tgz#6efe9f05dd7a06d650808832ebb1783806da2e12"
+antd@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.11.0.tgz#e9ff4e37bd1301bb085730e26a38e633270a38f1"
   dependencies:
-    array-tree-filter "^2.0.0"
+    "@ant-design/icons" "~1.1.15"
+    "@ant-design/icons-react" "~1.1.2"
+    array-tree-filter "^2.1.0"
     babel-runtime "6.x"
-    classnames "~2.2.0"
-    create-react-class "^15.6.0"
-    css-animation "^1.2.5"
+    classnames "~2.2.6"
+    create-react-class "^15.6.3"
+    create-react-context "0.2.2"
+    css-animation "^1.5.0"
     dom-closest "^0.2.0"
-    enquire.js "^2.1.1"
-    lodash "^4.17.5"
-    moment "^2.19.3"
+    enquire.js "^2.1.6"
+    intersperse "^1.0.0"
+    lodash "^4.17.11"
+    moment "^2.22.2"
     omit.js "^1.0.0"
-    prop-types "^15.5.7"
-    rc-animate "^2.4.1"
-    rc-calendar "~9.6.0"
-    rc-cascader "~0.13.0"
+    prop-types "^15.6.2"
+    raf "^3.4.0"
+    rc-animate "^2.5.4"
+    rc-calendar "~9.8.0"
+    rc-cascader "~0.16.0"
     rc-checkbox "~2.1.5"
-    rc-collapse "~1.9.0"
-    rc-dialog "~7.1.0"
-    rc-dropdown "~2.1.0"
-    rc-editor-mention "^1.0.2"
-    rc-form "^2.1.0"
-    rc-input-number "~4.0.0"
-    rc-menu "~7.0.2"
-    rc-notification "~3.1.1"
-    rc-pagination "~1.16.1"
-    rc-progress "~2.2.2"
-    rc-rate "~2.4.0"
-    rc-select "~8.0.7"
-    rc-slider "~8.6.0"
-    rc-steps "~3.1.0"
-    rc-switch "~1.6.0"
-    rc-table "~6.1.0"
-    rc-tabs "~9.2.0"
-    rc-time-picker "~3.3.0"
-    rc-tooltip "~3.7.0"
-    rc-tree "~1.8.0"
-    rc-tree-select "~1.12.0"
-    rc-upload "~2.4.0"
-    rc-util "^4.0.4"
-    react-lazy-load "^3.0.12"
-    react-slick "~0.23.1"
-    shallowequal "^1.0.1"
-    warning "~3.0.0"
+    rc-collapse "~1.10.0"
+    rc-dialog "~7.2.1"
+    rc-drawer "~1.7.6"
+    rc-dropdown "~2.2.1"
+    rc-editor-mention "^1.1.7"
+    rc-form "^2.2.3"
+    rc-input-number "~4.3.0"
+    rc-menu "~7.4.12"
+    rc-notification "~3.3.0"
+    rc-pagination "~1.17.3"
+    rc-progress "~2.2.6"
+    rc-rate "~2.4.2"
+    rc-select "~8.6.0"
+    rc-slider "~8.6.3"
+    rc-steps "~3.3.0"
+    rc-switch "~1.8.0"
+    rc-table "~6.4.0"
+    rc-tabs "~9.5.2"
+    rc-time-picker "~3.4.0"
+    rc-tooltip "~3.7.3"
+    rc-tree "~1.14.6"
+    rc-tree-select "~2.4.0"
+    rc-trigger "^2.6.2"
+    rc-upload "~2.6.0"
+    rc-util "^4.5.1"
+    react-lazy-load "^3.0.13"
+    react-lifecycles-compat "^3.0.4"
+    react-slick "~0.23.2"
+    resize-observer-polyfill "^1.5.0"
+    shallowequal "^1.1.0"
+    warning "~4.0.2"
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -943,7 +985,7 @@ array-tree-filter@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/array-tree-filter/-/array-tree-filter-1.0.1.tgz#0a8ad1eefd38ce88858632f9cc0423d7634e4d5d"
 
-array-tree-filter@^2.0.0:
+array-tree-filter@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/array-tree-filter/-/array-tree-filter-2.1.0.tgz#873ac00fec83749f255ac8dd083814b4f6329190"
 
@@ -1023,9 +1065,9 @@ async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
 
-async-validator@1.x:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-1.8.2.tgz#b77597226e96242f8d531c0d46ae295f62422ba4"
+async-validator@~1.8.5:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-1.8.5.tgz#dc3e08ec1fd0dddb67e60842f02c0cd1cec6d7f0"
   dependencies:
     babel-runtime "6.x"
 
@@ -2265,9 +2307,9 @@ caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
   version "1.0.30000836"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000836.tgz#c08f405b884d36dc44fa4c9a85c2c06cdab1dbb5"
 
-canner-helpers@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/canner-helpers/-/canner-helpers-2.0.6.tgz#e098c84870f2d629641f38a75e66f85048de7883"
+canner-helpers@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/canner-helpers/-/canner-helpers-2.0.11.tgz#a842cc33732faeb68c8d305a8906e2b96f28495c"
   dependencies:
     faker "^4.1.0"
 
@@ -2281,9 +2323,9 @@ canner-image-gallery@^0.3.4:
     react-loading-image "^0.4.1"
     styled-components "^3.2.3"
 
-canner-ref-id@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/canner-ref-id/-/canner-ref-id-2.0.5.tgz#dc093704a3fd50aab279d953dab1f5b0b50db2a3"
+canner-ref-id@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/canner-ref-id/-/canner-ref-id-2.0.11.tgz#a44cedb4e0b1f310fad7b1ae53f28aebdf52c84e"
 
 case-sensitive-paths-webpack-plugin@^2.1.2:
   version "2.1.2"
@@ -2378,9 +2420,13 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@~2.2.0:
+classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
+
+classnames@^2.2.6, classnames@~2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 clean-css@4.1.x:
   version "4.1.11"
@@ -2660,13 +2706,20 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@15.x, create-react-class@^15.5.2, create-react-class@^15.5.3, create-react-class@^15.6.0, create-react-class@^15.6.2:
+create-react-class@15.x, create-react-class@^15.5.2, create-react-class@^15.5.3, create-react-class@^15.6.0, create-react-class@^15.6.2, create-react-class@^15.6.3:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
     fbjs "^0.8.9"
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
+
+create-react-context@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.2.2.tgz#9836542f9aaa22868cd7d4a6f82667df38019dca"
+  dependencies:
+    fbjs "^0.8.0"
+    gud "^1.0.0"
 
 cross-spawn@5.1.0, cross-spawn@^5.0.1:
   version "5.1.0"
@@ -2702,9 +2755,16 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-css-animation@1.x, css-animation@^1.2.5, css-animation@^1.3.2:
+css-animation@1.x, css-animation@^1.3.2:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/css-animation/-/css-animation-1.4.1.tgz#5b8813125de0fbbbb0bbe1b472ae84221469b7a8"
+  dependencies:
+    babel-runtime "6.x"
+    component-classes "^1.2.5"
+
+css-animation@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/css-animation/-/css-animation-1.5.0.tgz#c96b9097a5ef74a7be8480b45cc44e4ec6ca2bf5"
   dependencies:
     babel-runtime "6.x"
     component-classes "^1.2.5"
@@ -3025,6 +3085,10 @@ dom-align@1.x:
   version "1.6.7"
   resolved "https://registry.yarnpkg.com/dom-align/-/dom-align-1.6.7.tgz#6858138efb6b77405ce99146d0be5e4f7282813f"
 
+dom-align@^1.7.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/dom-align/-/dom-align-1.8.0.tgz#c0e89b5b674c6e836cd248c52c2992135f093654"
+
 dom-closest@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/dom-closest/-/dom-closest-0.2.0.tgz#ebd9f91d1bf22e8d6f477876bbcd3ec90216c0cf"
@@ -3183,7 +3247,7 @@ enhanced-resolve@^3.4.0:
     object-assign "^4.0.1"
     tapable "^0.2.7"
 
-enquire.js@^2.1.1, enquire.js@^2.1.6:
+enquire.js@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/enquire.js/-/enquire.js-2.1.6.tgz#3e8780c9b8b835084c3f60e166dbc3c2a3c89814"
 
@@ -3654,6 +3718,18 @@ faye-websocket@~0.11.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
+fbjs@^0.8.0:
+  version "0.8.17"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
+
 fbjs@^0.8.1, fbjs@^0.8.12, fbjs@^0.8.15, fbjs@^0.8.16, fbjs@^0.8.5, fbjs@^0.8.9:
   version "0.8.16"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
@@ -4048,6 +4124,10 @@ grid-draggable@3.3.0:
     lodash.pickby "^4.6.0"
     react-draggable "^3.0.5"
 
+gud@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
+
 gzip-size@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-3.0.0.tgz#546188e9bdc337f673772f81660464b389dce520"
@@ -4416,6 +4496,10 @@ insert-css@^2.0.0:
 interpret@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.1.0.tgz#7ed1b1410c6a0e0f78cf95d3b8440c63f78b8614"
+
+intersperse@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/intersperse/-/intersperse-1.0.0.tgz#f2561fb1cfef9f5277cc3347a22886b4351a5181"
 
 intl-format-cache@^2.0.5:
   version "2.1.0"
@@ -4978,6 +5062,10 @@ lodash.flattendeep@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.flattendeep/-/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
 
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+
 lodash.isarguments@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
@@ -5043,7 +5131,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.1, lodash@^4.17.10:
+lodash@^4.0.1, lodash@^4.17.10, lodash@^4.17.11:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -5247,12 +5335,13 @@ min-document@^2.19.0:
   dependencies:
     dom-walk "^0.1.0"
 
-mini-store@^1.0.2, mini-store@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/mini-store/-/mini-store-1.1.0.tgz#4d6b3fb5c89aa0303d9b39475efb3439cd42f04f"
+mini-store@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mini-store/-/mini-store-2.0.0.tgz#0843c048d6942ce55e3e78b1b67fc063022b5488"
   dependencies:
     hoist-non-react-statics "^2.3.1"
     prop-types "^15.6.0"
+    react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
 
 minimalistic-assert@^1.0.0:
@@ -5330,11 +5419,11 @@ moment-timezone@^0.5.14:
   dependencies:
     moment ">= 2.9.0"
 
-moment@2.x, "moment@>= 2.9.0", moment@^2.19.3, moment@^2.20.1:
+moment@2.x, "moment@>= 2.9.0", moment@^2.20.1:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
 
-moment@^2.21.0:
+moment@^2.21.0, moment@^2.22.2:
   version "2.22.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
@@ -5356,6 +5445,10 @@ ms@2.0.0:
 ms@2.1.1, ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
+
+mutationobserver-shim@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#f4d5dae7a4971a2207914fb5a90ebd514b65acca"
 
 mute-stream@0.0.7:
   version "0.0.7"
@@ -6206,6 +6299,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
+prettier@^1.14.3:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
+
 prettier@^1.9.2:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.12.1.tgz#c1ad20e803e7749faf905a409d2367e06bbe7325"
@@ -6274,6 +6371,13 @@ prop-types@15.x, prop-types@>=15.0.0, prop-types@^15.5.0, prop-types@^15.5.10, p
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
     fbjs "^0.8.16"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
+prop-types@^15.6.2:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
+  dependencies:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
@@ -6422,6 +6526,12 @@ radium@^0.19.0:
     inline-style-prefixer "^2.0.5"
     prop-types "^15.5.8"
 
+raf@^3.4.0, raf@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
+  dependencies:
+    performance-now "^2.1.0"
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.0.6.tgz#d302c522948588848a8d300c932b44c24231da80"
@@ -6462,7 +6572,16 @@ rc-align@2.x:
     rc-util "^4.0.4"
     shallowequal "^1.0.2"
 
-rc-animate@2.x, rc-animate@^2.0.2, rc-animate@^2.3.0, rc-animate@^2.4.1:
+rc-align@^2.4.0, rc-align@^2.4.1:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/rc-align/-/rc-align-2.4.3.tgz#b9b3c2a6d68adae71a8e1d041cd5e3b2a655f99a"
+  dependencies:
+    babel-runtime "^6.26.0"
+    dom-align "^1.7.0"
+    prop-types "^15.5.8"
+    rc-util "^4.0.4"
+
+rc-animate@2.x, rc-animate@^2.3.0:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/rc-animate/-/rc-animate-2.4.4.tgz#a05a784c747beef140d99ff52b6117711bef4b1e"
   dependencies:
@@ -6470,9 +6589,33 @@ rc-animate@2.x, rc-animate@^2.0.2, rc-animate@^2.3.0, rc-animate@^2.4.1:
     css-animation "^1.3.2"
     prop-types "15.x"
 
-rc-calendar@~9.6.0:
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.6.0.tgz#666fbbbd4b5558e933e655a8033807bc6742b4b0"
+rc-animate@^2.5.4:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/rc-animate/-/rc-animate-2.6.0.tgz#ca8440d042781af7a1329d84f97ea94794c5ec15"
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.6"
+    css-animation "^1.3.2"
+    prop-types "15.x"
+    raf "^3.4.0"
+    react-lifecycles-compat "^3.0.4"
+
+rc-animate@^3.0.0-rc.1, rc-animate@^3.0.0-rc.4, rc-animate@^3.0.0-rc.5:
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/rc-animate/-/rc-animate-3.0.0-rc.6.tgz#04288eefa118e0cae214536c8a903ffaac1bc3fb"
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+    component-classes "^1.2.6"
+    fbjs "^0.8.16"
+    prop-types "15.x"
+    raf "^3.4.0"
+    rc-util "^4.5.0"
+    react-lifecycles-compat "^3.0.4"
+
+rc-calendar@~9.8.0:
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.8.0.tgz#c3241320eae61c07b444c98ce34fde72b96c8059"
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
@@ -6482,15 +6625,16 @@ rc-calendar@~9.6.0:
     rc-trigger "^2.2.0"
     rc-util "^4.1.1"
 
-rc-cascader@~0.13.0:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/rc-cascader/-/rc-cascader-0.13.1.tgz#157df251c5da734bf134b7a595a9b06446a6db80"
+rc-cascader@~0.16.0:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/rc-cascader/-/rc-cascader-0.16.2.tgz#e8f44702523d88aa3f28e92e440f1de5ec384d41"
   dependencies:
     array-tree-filter "^1.0.0"
     prop-types "^15.5.8"
     rc-trigger "^2.2.0"
     rc-util "^4.0.4"
     shallow-equal "^1.0.0"
+    warning "^4.0.1"
 
 rc-checkbox@~2.1.5:
   version "2.1.5"
@@ -6501,30 +6645,39 @@ rc-checkbox@~2.1.5:
     prop-types "15.x"
     rc-util "^4.0.4"
 
-rc-collapse@~1.9.0:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/rc-collapse/-/rc-collapse-1.9.1.tgz#b0778d067e5e958594cef2d3a9fa5f45a1ae2c3e"
+rc-collapse@~1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/rc-collapse/-/rc-collapse-1.10.0.tgz#b39578633a1e033391597776758763a10d3bc261"
   dependencies:
     classnames "2.x"
     css-animation "1.x"
     prop-types "^15.5.6"
     rc-animate "2.x"
 
-rc-dialog@~7.1.0:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/rc-dialog/-/rc-dialog-7.1.4.tgz#240c67461d875e49f5d3dd1677351963bcce790a"
+rc-dialog@~7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/rc-dialog/-/rc-dialog-7.2.1.tgz#ac92fcffdf2a0eaa64b77f829336653d911a57be"
   dependencies:
     babel-runtime "6.x"
     rc-animate "2.x"
     rc-util "^4.4.0"
 
-rc-dropdown@~2.1.0:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/rc-dropdown/-/rc-dropdown-2.1.2.tgz#f99844d2ec17707232f244dda75c8d8a623d0272"
+rc-drawer@~1.7.6:
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/rc-drawer/-/rc-drawer-1.7.6.tgz#925ce0768cf81ef5fa83eb22d90c603422b1b1b1"
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.5"
+    prop-types "^15.5.0"
+    rc-util "^4.5.1"
+
+rc-dropdown@~2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/rc-dropdown/-/rc-dropdown-2.2.1.tgz#172b6e87f0909fe8ab983e375f62e2866f3250c3"
   dependencies:
     babel-runtime "^6.26.0"
     prop-types "^15.5.8"
-    rc-trigger "^2.2.2"
+    rc-trigger "^2.5.1"
     react-lifecycles-compat "^3.0.2"
 
 rc-editor-core@~0.8.3:
@@ -6539,23 +6692,24 @@ rc-editor-core@~0.8.3:
     prop-types "^15.5.8"
     setimmediate "^1.0.5"
 
-rc-editor-mention@^1.0.2:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/rc-editor-mention/-/rc-editor-mention-1.1.6.tgz#acbb92661e2392f971f8d8ad1c235b084796c895"
+rc-editor-mention@^1.1.7:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/rc-editor-mention/-/rc-editor-mention-1.1.12.tgz#896bcb172112f18812e96fdd33ba603c0fc7306a"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "^2.2.5"
     dom-scroll-into-view "^1.2.0"
     draft-js "~0.10.0"
+    immutable "^3.7.4"
     prop-types "^15.5.8"
     rc-animate "^2.3.0"
     rc-editor-core "~0.8.3"
 
-rc-form@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/rc-form/-/rc-form-2.2.0.tgz#ea596c6c92c7df6092f95cbbf8f15014ea07e9f5"
+rc-form@^2.2.3:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/rc-form/-/rc-form-2.2.7.tgz#8880851b9cd4a9c911f5272c91db73978a72377d"
   dependencies:
-    async-validator "1.x"
+    async-validator "~1.8.5"
     babel-runtime "6.x"
     create-react-class "^15.5.3"
     dom-scroll-into-view "1.x"
@@ -6571,32 +6725,35 @@ rc-hammerjs@~0.6.0:
     hammerjs "^2.0.8"
     prop-types "^15.5.9"
 
-rc-input-number@~4.0.0:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/rc-input-number/-/rc-input-number-4.0.7.tgz#3d231518decf443dcc6152e4370a46f2b705f901"
+rc-input-number@~4.3.0:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/rc-input-number/-/rc-input-number-4.3.7.tgz#5c11a2015812c414492d8f0408ef04bb48fd6e1c"
   dependencies:
     babel-runtime "6.x"
     classnames "^2.2.0"
     is-negative-zero "^2.0.0"
     prop-types "^15.5.7"
+    rc-util "^4.5.1"
     rmc-feedback "^2.0.0"
 
-rc-menu@^7.0.2, rc-menu@~7.0.2:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/rc-menu/-/rc-menu-7.0.3.tgz#8761aaeef5297e84e573f1920783f8ed1f3cb7dc"
+rc-menu@^7.3.0, rc-menu@~7.4.12:
+  version "7.4.20"
+  resolved "https://registry.yarnpkg.com/rc-menu/-/rc-menu-7.4.20.tgz#5c322d330142c465d240d8da7d4206a2a329096c"
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
     dom-scroll-into-view "1.x"
-    mini-store "^1.1.0"
+    mini-store "^2.0.0"
+    mutationobserver-shim "^0.3.2"
     prop-types "^15.5.6"
     rc-animate "2.x"
     rc-trigger "^2.3.0"
     rc-util "^4.1.0"
+    resize-observer-polyfill "^1.5.0"
 
-rc-notification@~3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/rc-notification/-/rc-notification-3.1.1.tgz#14eac6730db1d59adaf569dad9fe82a2f33cd23a"
+rc-notification@~3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/rc-notification/-/rc-notification-3.3.0.tgz#af74fe7fc9ee4040eaa5e72dbd6d4088a3ecae2d"
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
@@ -6604,48 +6761,50 @@ rc-notification@~3.1.1:
     rc-animate "2.x"
     rc-util "^4.0.4"
 
-rc-pagination@~1.16.1:
-  version "1.16.3"
-  resolved "https://registry.yarnpkg.com/rc-pagination/-/rc-pagination-1.16.3.tgz#2d3780a129c290c2e2e85a71b6723a8301484c2e"
+rc-pagination@~1.17.3:
+  version "1.17.3"
+  resolved "https://registry.yarnpkg.com/rc-pagination/-/rc-pagination-1.17.3.tgz#4c5334adef607f7a80b90ca7501a1e962491aae5"
   dependencies:
     babel-runtime "6.x"
     prop-types "^15.5.7"
 
-rc-progress@~2.2.2:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/rc-progress/-/rc-progress-2.2.5.tgz#e61d0544bf9d4208e5ba32fc50962159e7f952a3"
+rc-progress@~2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/rc-progress/-/rc-progress-2.2.6.tgz#d5d07c07333b352a9ef13230c5940e13336c1e62"
   dependencies:
     babel-runtime "6.x"
     prop-types "^15.5.8"
 
-rc-rate@~2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/rc-rate/-/rc-rate-2.4.0.tgz#97ebcc5876e2e498b9f5f65ced256d8ab54e5f06"
+rc-rate@~2.4.2:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/rc-rate/-/rc-rate-2.4.3.tgz#70434905faf84c9a0694bec4bdbd9b9a9099318f"
   dependencies:
     babel-runtime "^6.26.0"
     classnames "^2.2.5"
     prop-types "^15.5.8"
     rc-util "^4.3.0"
+    react-lifecycles-compat "^3.0.4"
 
-rc-select@~8.0.7:
-  version "8.0.8"
-  resolved "https://registry.yarnpkg.com/rc-select/-/rc-select-8.0.8.tgz#4d73537095eaeccfc828d94833528df4ed0c2199"
+rc-select@~8.6.0:
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/rc-select/-/rc-select-8.6.4.tgz#0b80b486d16070640623d1cd43e828035023ab09"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "2.x"
     component-classes "1.x"
     dom-scroll-into-view "1.x"
     prop-types "^15.5.8"
+    raf "^3.4.0"
     rc-animate "2.x"
-    rc-menu "^7.0.2"
-    rc-trigger "^2.2.0"
+    rc-menu "^7.3.0"
+    rc-trigger "^2.5.4"
     rc-util "^4.0.4"
     react-lifecycles-compat "^3.0.2"
-    warning "^3.0.0"
+    warning "^4.0.2"
 
-rc-slider@~8.6.0:
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/rc-slider/-/rc-slider-8.6.1.tgz#ee5e0380dbdf4b5de6955a265b0d4ff6196405d1"
+rc-slider@~8.6.3:
+  version "8.6.3"
+  resolved "https://registry.yarnpkg.com/rc-slider/-/rc-slider-8.6.3.tgz#1ca0e0bd2863252741de75e7bf8c9f2cfcffccb7"
   dependencies:
     babel-runtime "6.x"
     classnames "^2.2.5"
@@ -6655,53 +6814,55 @@ rc-slider@~8.6.0:
     shallowequal "^1.0.1"
     warning "^3.0.0"
 
-rc-steps@~3.1.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/rc-steps/-/rc-steps-3.1.1.tgz#79583ad808309d82b8e011676321d153fd7ca403"
+rc-steps@~3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/rc-steps/-/rc-steps-3.3.0.tgz#8817c438a6a5648997c7edb51bde727e6f32e132"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "^2.2.3"
     lodash "^4.17.5"
     prop-types "^15.5.7"
 
-rc-switch@~1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/rc-switch/-/rc-switch-1.6.0.tgz#c2d7369bdb87c1fd45e84989a27c1fb2f201d2fd"
+rc-switch@~1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/rc-switch/-/rc-switch-1.8.0.tgz#cff32fd04c406d8c0c0397e69bc36350a333e236"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "^2.2.1"
     prop-types "^15.5.6"
 
-rc-table@~6.1.0:
-  version "6.1.12"
-  resolved "https://registry.yarnpkg.com/rc-table/-/rc-table-6.1.12.tgz#484c73f263d2169e5664ee6e99094af2a7493539"
+rc-table@~6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/rc-table/-/rc-table-6.4.0.tgz#ea26a4002a3fde9a26f7d7889bb016e7b8e5a598"
   dependencies:
     babel-runtime "6.x"
+    classnames "^2.2.5"
     component-classes "^1.2.6"
     lodash "^4.17.5"
-    mini-store "^1.0.2"
+    mini-store "^2.0.0"
     prop-types "^15.5.8"
     rc-util "^4.0.4"
     react-lifecycles-compat "^3.0.2"
     shallowequal "^1.0.2"
     warning "^3.0.0"
 
-rc-tabs@~9.2.0:
-  version "9.2.5"
-  resolved "https://registry.yarnpkg.com/rc-tabs/-/rc-tabs-9.2.5.tgz#fdd8e0633247f50c533030b73e3992270849f1f6"
+rc-tabs@~9.5.2:
+  version "9.5.6"
+  resolved "https://registry.yarnpkg.com/rc-tabs/-/rc-tabs-9.5.6.tgz#59772031b18c2adb8e4d3930250754f2e0695a47"
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
-    create-react-class "15.x"
+    create-react-context "0.2.2"
     lodash "^4.17.5"
     prop-types "15.x"
+    raf "^3.4.1"
     rc-hammerjs "~0.6.0"
     rc-util "^4.0.4"
     warning "^3.0.0"
 
-rc-time-picker@~3.3.0:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/rc-time-picker/-/rc-time-picker-3.3.1.tgz#94f8bbd51e6b93de1f01e78064aef1e6d765b367"
+rc-time-picker@~3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/rc-time-picker/-/rc-time-picker-3.4.0.tgz#274e80122f885b37a4eace7393f3a25334fa141f"
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
@@ -6709,7 +6870,7 @@ rc-time-picker@~3.3.0:
     prop-types "^15.5.8"
     rc-trigger "^2.2.0"
 
-rc-tooltip@^3.7.0, rc-tooltip@~3.7.0:
+rc-tooltip@^3.7.0:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/rc-tooltip/-/rc-tooltip-3.7.2.tgz#3698656d4bacd51b72d9e327bed15d1d5a9f1b27"
   dependencies:
@@ -6717,38 +6878,40 @@ rc-tooltip@^3.7.0, rc-tooltip@~3.7.0:
     prop-types "^15.5.8"
     rc-trigger "^2.2.2"
 
-rc-tree-select@~1.12.0:
-  version "1.12.12"
-  resolved "https://registry.yarnpkg.com/rc-tree-select/-/rc-tree-select-1.12.12.tgz#d56fb8a833f11c0944891ba9172523b2908491dc"
+rc-tooltip@~3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/rc-tooltip/-/rc-tooltip-3.7.3.tgz#280aec6afcaa44e8dff0480fbaff9e87fc00aecc"
+  dependencies:
+    babel-runtime "6.x"
+    prop-types "^15.5.8"
+    rc-trigger "^2.2.2"
+
+rc-tree-select@~2.4.0:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/rc-tree-select/-/rc-tree-select-2.4.3.tgz#0e9cc8c209e32298d01166e26ad2b03e22f9a7ea"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "^2.2.1"
     prop-types "^15.5.8"
-    rc-animate "^2.0.2"
-    rc-tree "~1.7.1"
-    rc-trigger "^2.2.2"
+    raf "^3.4.0"
+    rc-animate "^3.0.0-rc.4"
+    rc-tree "~1.14.3"
+    rc-trigger "^3.0.0-rc.2"
     rc-util "^4.5.0"
+    react-lifecycles-compat "^3.0.4"
+    shallowequal "^1.0.2"
+    warning "^4.0.1"
 
-rc-tree@~1.7.1:
-  version "1.7.11"
-  resolved "https://registry.yarnpkg.com/rc-tree/-/rc-tree-1.7.11.tgz#349de6383fc7d22bf4c13b0751794111022adddf"
+rc-tree@~1.14.3, rc-tree@~1.14.6:
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/rc-tree/-/rc-tree-1.14.8.tgz#31a9652d71c015370d7b6c2109c865244deb9fde"
   dependencies:
     babel-runtime "^6.23.0"
     classnames "2.x"
     prop-types "^15.5.8"
-    rc-animate "2.x"
-    rc-util "^4.0.4"
-    warning "^3.0.0"
-
-rc-tree@~1.8.0:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/rc-tree/-/rc-tree-1.8.3.tgz#2875e83bc951b5ed7577c1038490f8245d79a37f"
-  dependencies:
-    babel-runtime "^6.23.0"
-    classnames "2.x"
-    prop-types "^15.5.8"
-    rc-animate "2.x"
-    rc-util "^4.0.4"
+    rc-animate "^3.0.0-rc.5"
+    rc-util "^4.5.1"
+    react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
 rc-trigger@^2.2.0, rc-trigger@^2.2.2, rc-trigger@^2.3.0:
@@ -6761,9 +6924,32 @@ rc-trigger@^2.2.0, rc-trigger@^2.2.2, rc-trigger@^2.3.0:
     rc-animate "2.x"
     rc-util "^4.4.0"
 
-rc-upload@~2.4.0:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/rc-upload/-/rc-upload-2.4.4.tgz#28e1e6a3e44d1b1f92e57e21927cfa2763ac2a21"
+rc-trigger@^2.5.1, rc-trigger@^2.5.4, rc-trigger@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/rc-trigger/-/rc-trigger-2.6.2.tgz#a9c09ba5fad63af3b2ec46349c7db6cb46657001"
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.6"
+    prop-types "15.x"
+    rc-align "^2.4.0"
+    rc-animate "2.x"
+    rc-util "^4.4.0"
+
+rc-trigger@^3.0.0-rc.2:
+  version "3.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/rc-trigger/-/rc-trigger-3.0.0-rc.3.tgz#35842df1674d25315e1426a44882a4c97652258b"
+  dependencies:
+    babel-runtime "6.x"
+    classnames "^2.2.6"
+    prop-types "15.x"
+    raf "^3.4.0"
+    rc-align "^2.4.1"
+    rc-animate "^3.0.0-rc.1"
+    rc-util "^4.4.0"
+
+rc-upload@~2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/rc-upload/-/rc-upload-2.6.0.tgz#9cfb8dda8b1bbae823a076d2dd81a5c0b3f0aa00"
   dependencies:
     babel-runtime "6.x"
     classnames "^2.2.5"
@@ -6775,6 +6961,15 @@ rc-util@^4.0.4, rc-util@^4.1.0, rc-util@^4.1.1, rc-util@^4.3.0, rc-util@^4.4.0, 
   resolved "https://registry.yarnpkg.com/rc-util/-/rc-util-4.5.0.tgz#3183e6ec806f382efb2d3e85770d95875fa6180f"
   dependencies:
     add-dom-event-listener "1.x"
+    babel-runtime "6.x"
+    prop-types "^15.5.10"
+    shallowequal "^0.2.2"
+
+rc-util@^4.5.1:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/rc-util/-/rc-util-4.6.0.tgz#ba33721783192ec4f3afb259e182b04e55deb7f6"
+  dependencies:
+    add-dom-event-listener "^1.1.0"
     babel-runtime "6.x"
     prop-types "^15.5.10"
     shallowequal "^0.2.2"
@@ -6946,7 +7141,7 @@ react-is@^16.3.1:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
 
-react-lazy-load@^3.0.12:
+react-lazy-load@^3.0.13:
   version "3.0.13"
   resolved "https://registry.yarnpkg.com/react-lazy-load/-/react-lazy-load-3.0.13.tgz#3b0a92d336d43d3f0d73cbe6f35b17050b08b824"
   dependencies:
@@ -6958,6 +7153,10 @@ react-lazy-load@^3.0.12:
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.3.tgz#473820154732f1ccd762e89324abab154255da6b"
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
 react-loading-image@^0.4.1:
   version "0.4.2"
@@ -6998,14 +7197,15 @@ react-quill@^1.3.1:
     quill "^1.2.6"
     react-dom-factories "^1.0.0"
 
-react-slick@~0.23.1:
-  version "0.23.1"
-  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.23.1.tgz#15791c4107f0ba3a5688d5bd97b7b7ceaa0dd181"
+react-slick@~0.23.2:
+  version "0.23.2"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.23.2.tgz#8d8bdbc77a6678e8ad36f50c32578c7c0f1c54f6"
   dependencies:
     classnames "^2.2.5"
     enquire.js "^2.1.6"
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
+    prettier "^1.14.3"
     resize-observer-polyfill "^1.5.0"
 
 react-sortablejs@^1.3.6:
@@ -7557,6 +7757,10 @@ shallowequal@^0.2.2:
 shallowequal@^1.0.1, shallowequal@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.0.2.tgz#1561dbdefb8c01408100319085764da3fcf83f8f"
+
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -8120,6 +8324,10 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+ua-parser-js@^0.7.18:
+  version "0.7.19"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
+
 ua-parser-js@^0.7.9:
   version "0.7.18"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
@@ -8359,9 +8567,15 @@ warning@2.x:
   dependencies:
     loose-envify "^1.0.0"
 
-warning@^3.0.0, warning@~3.0.0:
+warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
+
+warning@^4.0.1, warning@^4.0.2, warning@~4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.2.tgz#aa6876480872116fa3e11d434b0d0d8d91e44607"
   dependencies:
     loose-envify "^1.0.0"
 

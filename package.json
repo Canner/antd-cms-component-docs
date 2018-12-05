@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@canner/antd-components": "^0.5.5",
+    "@canner/antd-components": "^0.5.18",
     "@storybook/addon-options": "^3.4.3",
-    "antd": "^3.5.1",
-    "canner-helpers": "^2.0.6",
-    "canner-ref-id": "^2.0.5",
+    "antd": "^3.11.0",
+    "canner-helpers": "^2.0.11",
+    "canner-ref-id": "^2.0.11",
     "css-loader": "^1.0.0",
     "immutable": "^3.8.2",
     "less-loader": "^4.1.0",
@@ -24,7 +24,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "devDependencies": {
-    "@canner/storage": "^2.0.5",
+    "@canner/storage": "^2.0.11",
     "@storybook/addon-actions": "^3.4.3",
     "@storybook/addon-console": "^1.0.0",
     "@storybook/addon-knobs": "^3.4.11",

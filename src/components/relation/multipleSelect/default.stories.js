@@ -55,7 +55,7 @@ storiesOf('Relation', module)
   .addDecorator(customPreview(README))
   .add('MultipleSelect', () => (
     <MultipleSelectDefault
-      refId={new RefId("relation")}
+      refId={new RefId("user/0/lovedPosts")}
       relation={{
         to: 'posts',
         type: 'toMany'
