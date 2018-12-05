@@ -62,9 +62,14 @@ storiesOf('Relation', module)
       }}
       uiParams={{
         columns: object('columns', [{
-          title: "title",
-          key: "title",
+          title: "Title",
           dataIndex: "title"
+        }, {
+          title: "Image",
+          dataIndex: "image"
+        }, {
+          title: "Created Date",
+          dataIndex: "createdDate"
         }]),
       }}
       schema={{posts: {
@@ -75,6 +80,12 @@ storiesOf('Relation', module)
           items: {
             title: {
               type: 'string'
+            },
+            image: {
+              type: 'image'
+            },
+            createdDate: {
+              type: 'dateTime'
             }
           }
         }

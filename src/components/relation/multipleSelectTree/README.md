@@ -1,13 +1,21 @@
 ## Usage
 
-This component 
+This component only works in self-relation field, for examples, `category` can be one of the `parentCategories` of the another `category`.
 
 ```jsx
-<relation
+<array
   keyName="categories"
-  uiParams={uiParams}
-  ui="multipleSelectTree"
-/>
+>
+  <relation
+    keyName="parentCategories"
+    uiParams={uiParams}
+    ui="multipleSelectTree"
+    relation={{
+      to: 'categories', // relation to self
+      type: 'toMany'
+    }}
+  />
+</array>
 ```
 
 <!-- STORY -->

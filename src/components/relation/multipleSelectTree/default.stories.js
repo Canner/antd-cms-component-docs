@@ -15,15 +15,15 @@ const connection = {
     cursor: 'item1',
     node: {
       id: 'item1',
-      title: 'item1',
-      relation: null
+      name: 'item1',
+      parentCategories: {}
     }
   }, {
     cursor: 'item2',
     node: {
       id: 'item2',
-      title: 'item2',
-      relation: {
+      name: 'item2',
+      parentCategories: {
         id: 'item1'
       }
     }
@@ -31,8 +31,8 @@ const connection = {
     cursor: 'item3',
     node: {
       id: 'item3',
-      title: 'item3',
-      relation: {
+      name: 'item3',
+      parentCategories: {
         id: 'item2'
       }
     }
@@ -40,15 +40,15 @@ const connection = {
     cursor: 'item4',
     node: {
       id: 'item4',
-      title: 'item4',
-      relation: null
+      name: 'item4',
+      parentCategories: {}
     }
   }, {
     cursor: 'item5',
     node: {
       id: 'item5',
-      title: 'item5',
-      relation: {
+      name: 'item5',
+      parentCategories: {
         id: 'item4'
       }
     }
@@ -68,29 +68,33 @@ storiesOf('Relation', module)
   .addDecorator(customPreview(README))
   .add('MultipleSelectTree', () => (
     <MultipleSelectTreeDefault
-      refId={new RefId("relation/1/relation")}
+      refId={new RefId("categories/0/parentCategories")}
       relation={{
-        to: 'posts',
+        to: 'categories',
         type: 'toMany'
       }}
       uiParams={{
-        textCol: text('textCol', 'title'),
+        textCol: text('textCol', 'name'),
         columns: object('columns', [{
-          title: "title",
-          key: "title",
-          dataIndex: "title"
+          title: "name",
+          dataIndex: "name"
         }]),
-        relationField: text('relationField', 'relation')
+        relationField: text('relationField', 'parentCategories')
       }}
-      rootValue={{relation: dataList}}
-      schema={{posts: {
-        title: 'posts',
+      rootValue={{categories: dataList}}
+      schema={{categories: {
+        keyName: 'categories',
         type: 'array',
         items: {
           type: 'object',
           items: {
-            title: {
+            name: {
+              keyName: 'name',
               type: 'string'
+            },
+            parentCategories: {
+              keyName: 'parentCategories',
+              type: 'relation'
             }
           }
         }
