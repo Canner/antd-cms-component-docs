@@ -41,10 +41,10 @@
   </thead>
   <tbody>
     <tr>
-      <td>options</td>
-      <td><code>Array<{title: string, key: string}></code></td>
-      <td></td>
-      <td>Option titles and keys</td>
+      <td>minHeight</td>
+      <td><code>string</code></td>
+      <td>'400px'</td>
+      <td>set the initial height</td>
     </tr>
   </tbody>
 </table>

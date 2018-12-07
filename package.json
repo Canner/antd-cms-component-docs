@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@canner/antd-components": "^0.5.18",
+    "@canner/antd-components": "^0.5.21",
     "@storybook/addon-options": "^3.4.3",
     "antd": "^3.11.0",
     "canner-helpers": "^2.0.11",

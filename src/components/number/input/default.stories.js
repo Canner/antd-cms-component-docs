@@ -20,7 +20,8 @@ storiesOf('Number', module)
         min: number('min', 0),
         max: number('max', 100),
         step: number('step', 1),
-        unit: text('unit', '')
+        precision: number('precision', 0),
+        unit: text('unit', ''),
       }}
     />
   )));
