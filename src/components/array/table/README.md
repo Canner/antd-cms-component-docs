@@ -37,20 +37,14 @@ Array<{
   <tbody>
     <tr>
       <td>columns</td>
-      <td><code>Array<{
+      <td><pre><code>Array<{
         title: string,
         key: string,
         dataIndex: string,
         renderTemplate: string
-      }></code></td>
+      }></code></pre></td>
       <td></td>
       <td>Columns of table</td>
-    </tr>
-    <tr>
-      <td>disableDelete</td>
-      <td>boolean</td>
-      <td></td>
-      <td>Whether show delete button or not</td>
     </tr>
     <tr>
       <td>updateKeys</td>
@@ -63,6 +57,30 @@ Array<{
       <td><code>Array&lt;string&gt;</code></td>
       <td></td>
       <td>Keys that should show up in create's popup window</td>
+    </tr>
+    <tr>
+      <td>size</td>
+      <td><code>'default' | 'midlle' | 'size'</code></td>
+      <td>'default'</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>bordered</td>
+      <td><code>boolean</code></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>showHeader</td>
+      <td><code>boolean</code></td>
+      <td><code>true</code></td>
+      <td>Show the header of table or not.</td>
+    </tr>
+    <tr>
+      <td>createButtonPosition</td>
+      <td><code>'right' | 'left'</code></td>
+      <td><code>'right'</code></td>
+      <td>The position of create button.</td>
     </tr>
   </tbody>
 </table>

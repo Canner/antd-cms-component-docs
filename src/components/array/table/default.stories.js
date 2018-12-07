@@ -5,7 +5,7 @@ import RefId from 'canner-ref-id';
 import README from './README.md';
 import IntlComponent from 'components/IntlComponent';
 import {Context} from 'canner-helpers';
-import {withKnobs, object, boolean} from '@storybook/addon-knobs';
+import {withKnobs, object, boolean, select} from '@storybook/addon-knobs';
 
 import Table from '@canner/antd-array-table';
 import { storiesOf } from '@storybook/react';
@@ -34,9 +34,12 @@ storiesOf('Array', module)
             key: "title",
             dataIndex: "title"
           }]),
-          disableDelete: boolean('disableDelete', false),
           createKeys: object('createKeys', ['title', 'content']),
-          updateKeys: object('updateKeys', ['title', 'content'])
+          updateKeys: object('updateKeys', ['title', 'content']),
+          size: select('size', ['default', 'middle', 'small'], 'default'),
+          bordered: boolean('bordered', false),
+          showHeader: boolean('showHeader', true),
+          createButtonPosition: select('createButtonPosition', ['right', 'left'], 'right'),
         }}
         items={{
           type: "object",
@@ -49,6 +52,6 @@ storiesOf('Array', module)
             }
           }
         }}
-        />
+      />
     </Context.Provider>
   )));

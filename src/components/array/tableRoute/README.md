@@ -58,5 +58,29 @@ Array<{
       <td></td>
       <td>Keys that should show up in create's popup window</td>
     </tr>
+    <tr>
+      <td>size</td>
+      <td><code>'default' | 'midlle' | 'size'</code></td>
+      <td>'default'</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>bordered</td>
+      <td><code>boolean</code></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>showHeader</td>
+      <td><code>boolean</code></td>
+      <td><code>true</code></td>
+      <td>Show the header of table or not.</td>
+    </tr>
+    <tr>
+      <td>createButtonPosition</td>
+      <td><code>'right' | 'left'</code></td>
+      <td><code>'right'</code></td>
+      <td>The position of create button.</td>
+    </tr>
   </tbody>
 </table>
