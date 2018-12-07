@@ -23,7 +23,8 @@ This component only works in self-relation field, for examples, `category` can b
 ## Value type
 
 ```js
-Array<Object>
+// the array of category Object
+Array<{id: string, name: string, ...}>
 ```
 
 ## uiParams props (optional)

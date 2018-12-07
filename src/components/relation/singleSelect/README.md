@@ -2,9 +2,13 @@
 
 ```jsx
 <relation
-  keyName="card"
+  keyName="lovedPosts"
   uiParams={uiParams}
   ui="singleSelect"
+  relation={{
+    to: 'posts', // should be a keyName of first level
+    type: 'toOne'
+  }}
 />
 ```
 
@@ -13,7 +17,8 @@
 ## Value type
 
 ```js
-Object
+// the post object
+{id: string, title: string}
 ```
 
 ## uiParams props (optional)
@@ -29,16 +34,21 @@ Object
   </thead>
   <tbody>
     <tr>
-      <td>yesText</td>
-      <td>string</td>
-      <td>'Yes'</td>
-      <td>Select true display text</td>
+      <td>textCol</td>
+      <td><code>string | Function</code></td>
+      <td>-</td>
+      <td>Used to select the value to display on tag.</td>
     </tr>
     <tr>
-      <td>noText</td>
-      <td>string</td>
-      <td>'No'</td>
-      <td>Select false display text</td>
+      <td>columns</td>
+      <td><pre><code>Array&lt;{
+  title: string,
+  key: string,
+  dataIndex: string,
+  render: Function
+}></code></pre></td>
+      <td>-</td>
+      <td>The columns should be displayed on table</td>
     </tr>
   </tbody>
 </table>

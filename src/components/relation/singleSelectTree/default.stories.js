@@ -16,15 +16,15 @@ const connection = {
     cursor: 'item1',
     node: {
       id: 'item1',
-      title: 'item1',
-      relation: null
+      name: 'item1',
+      parentCategory: null
     }
   }, {
     cursor: 'item2',
     node: {
       id: 'item2',
-      title: 'item2',
-      relation: {
+      name: 'item2',
+      parentCategory: {
         id: 'item1'
       }
     }
@@ -32,8 +32,8 @@ const connection = {
     cursor: 'item3',
     node: {
       id: 'item3',
-      title: 'item3',
-      relation: {
+      name: 'item3',
+      parentCategory: {
         id: 'item2'
       }
     }
@@ -41,15 +41,15 @@ const connection = {
     cursor: 'item4',
     node: {
       id: 'item4',
-      title: 'item4',
-      relation: null
+      name: 'item4',
+      parentCategory: null
     }
   }, {
     cursor: 'item5',
     node: {
       id: 'item5',
-      title: 'item5',
-      relation: {
+      name: 'item5',
+      parentCategory: {
         id: 'item4'
       }
     }
@@ -66,17 +66,34 @@ storiesOf('Relation', module)
   .addDecorator(customPreview(README))
   .add('SingleSelectTree', () => (
     <SingleSelectTreeDefault
-      refId={new RefId("relation/0/relation")}
+      refId={new RefId("categories/0/parentCategory")}
       uiParams={{
-        textCol: text('textCol', 'title'),
-        relationField: text('relationField', 'relation')
+        textCol: text('textCol', 'name'),
+        relationField: text('relationField', 'parentCategory')
       }}
       relation={{
-        to: 'posts',
+        to: 'categories',
         type: 'toOne'
       }}
+      schema={{categories: {
+        keyName: 'categories',
+        type: 'array',
+        items: {
+          type: 'object',
+          items: {
+            name: {
+              keyName: 'name',
+              type: 'string'
+            },
+            parentCategory: {
+              keyName: 'parentCategory',
+              type: 'relation'
+            }
+          }
+        }
+      }}}
       Toolbar={({children}) => children(dataList)}
-      rootValue={{relation: dataList}}
+      rootValue={{categories: dataList}}
       relationValue={connection}
     />
   ));

@@ -17,8 +17,8 @@
 ## Value type
 
 ```js
-// the array of card object
-Array<Object>
+// the array of post object
+Array<{id: string, title: string, ...}>
 ```
 
 ## uiParams props (optional)
@@ -35,7 +35,12 @@ Array<Object>
   <tbody>
     <tr>
       <td>columns</td>
-      <td><code>Array&lt;{title: string, key: string, dataIndex: string, render: Function}></code></td>
+      <td><pre><code>Array&lt;{
+  title: string,
+  key: string,
+  dataIndex: string,
+  render: Function
+}></code></pre></td>
       <td>-</td>
       <td>The columns should be displayed on table</td>
     </tr>
